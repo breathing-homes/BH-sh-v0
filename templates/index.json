@@ -174,11 +174,11 @@
           "type": "section_padding",
           "settings": {
             "section_padding_top": 0,
-            "section_padding_bottom": 100,
+            "section_padding_bottom": 45,
             "section_padding_top_md": 0,
-            "section_padding_bottom_md": 80,
+            "section_padding_bottom_md": 45,
             "section_padding_top_xs": 0,
-            "section_padding_bottom_xs": 50
+            "section_padding_bottom_xs": 45
           }
         }
       },
@@ -202,6 +202,30 @@
         "title_color": "#071c1f",
         "content_color": "#071c1f",
         "half_bg_color": "#ffffff"
+      }
+    },
+    "cc6edc68-682a-48bb-9cee-b0e4c009d9b9": {
+      "type": "custom-html",
+      "blocks": {
+        "template--20463255552309__cc6edc68-682a-48bb-9cee-b0e4c009d9b9-section_padding-1": {
+          "type": "section_padding",
+          "settings": {
+            "section_padding_top": 0,
+            "section_padding_bottom": 0,
+            "section_padding_top_md": 0,
+            "section_padding_bottom_md": 0,
+            "section_padding_top_xs": 0,
+            "section_padding_bottom_xs": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20463255552309__cc6edc68-682a-48bb-9cee-b0e4c009d9b9-section_padding-1"
+      ],
+      "settings": {
+        "section_sub_title": "",
+        "section_title": "",
+        "custom_html_content": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.linearicons.com\/free\/1.0.0\/icon-font.min.css\">\n<style>\n\tsection {\n  position: relative;\n  background: white; }\n  section:last-of-type {\n    min-height: 20vh; }\n  section.focus .page-header {\n    color: #907dda; }\n    section.focus .page-header:after {\n      visibility: visible;\n      opacity: 1; }\n\n.section-header {\n  position: relative;\n  font-size: 26px;\n  font-weight: 400;\n  color: #333;\n  text-align: center;\n  line-height: 60px;\n  letter-spacing: 1px; }\n  .section-header:after {\n    content: '';\n    display: block;\n    position: absolute;\n    left: 50%;\n    bottom: 0;\n    width: 70px;\n    height: 2px;\n    background: #907dda;\n    -webkit-transform: translate(-50%, 0);\n    -webkit-transform: translate3d(-50%, 0, 0);\n    -ms-transform: translate(-50%, 0);\n    -ms-transform: translate3d(-50%, 0, 0);\n    transform: translate(-50%, 0);\n    transform: translate3d(-50%, 0, 0); }\n\n#features {\n  padding-bottom: 0;\n  color: #333; }\n  #features .feature {\n    padding: 25px 0; }\n    @media (min-width: 768px) {\n      #features .feature {\n        padding: 50px 0; } }\n    #features .feature span {\n      font-size: 40px;\n      margin-bottom: 15px;\n      fill: currentColor; }\n      @media (min-width: 768px) {\n        #features .feature span {\n          font-size: 60px; } }\n    #features .feature h4 {\n      font-size: 14px;\n      font-weight: 600;\n      text-transform: uppercase;\n      line-height: 24px;\n      letter-spacing: 2px;\n      color: #907dda; }\n<\/style>\n\n\t<section id=\"features\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row justify-content-center\">\n    <div class=\"col-12 text-center\">\n\t\t\t\t\t<div class=\"section-header\">\n\t\t\t\t\t\tBenefits\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n<!-- \/.col -->\n\t\t\t<\/div>\n<!-- \/.row -->\n\t\t\t\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"feature-container col-xs-12\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"feature col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0 text-center\">\n\t\t\t\t\t\t\t<span class=\"lnr lnr-magic-wand\"><use xlink:href=\"#lnr-magic-wand\"><\/use><\/span>\n\t\t\t\t\t\t\t<h4>Animated Scroll<\/h4>\n\t\t\t\t\t\t\t<p>Smooth, animated scroll between navigation links<\/p>\n\t\t\t\t\t\t<\/div>\n<!-- \/.feature -->\n\n\t\t\t\t\t\t<div class=\"feature col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0 text-center\">\n\t\t\t\t\t\t\t<span class=\"lnr lnr-map-marker\"><use xlink:href=\"#lnr-map-marker\"><\/use><\/span>\n\t\t\t\t\t\t\t<h4>Page Location<\/h4>\n\t\t\t\t\t\t\t<p>Track page locations when scrolling<\/p>\n\t\t\t\t\t\t<\/div>\n<!-- \/.feature -->\n\n\t\t\t\t\t\t<div class=\"feature col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0 text-center\">\n\t\t\t\t\t\t\t<span class=\"lnr lnr-bullhorn\"><use xlink:href=\"#lnr-bullhorn\"><\/use><\/span>\n\t\t\t\t\t\t\t<h4>Focus Events<\/h4>\n\t\t\t\t\t\t\t<p>Draw user attention to navigated sections<\/p>\n\t\t\t\t\t\t<\/div>\n<!-- \/.feature -->\n\t\t\t\t\t\t<div class=\"feature col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0 text-center\">\n\t\t\t\t\t\t\t<span class=\"lnr lnr-bullhorn\"><use xlink:href=\"#lnr-bullhorn\"><\/use><\/span>\n\t\t\t\t\t\t\t<h4>4th title<\/h4>\n\t\t\t\t\t\t\t<p>iska bhi content<\/p>\n\t\t\t\t\t\t<\/div>\n<!-- \/.feature -->\n\t\t\t\t\t<\/div>\n<!-- \/.row -->\n\t\t\t\t<\/div>\n<!-- \/.feature-container -->\n\n\t\t\t<\/div>\n<!-- \/.row -->\n\t\t<\/div>\n<!-- \/.container -->\n<\/section>"
       }
     },
     "2aebd4c3-fa0d-4299-9f12-48d0321ab3ce": {
@@ -648,6 +672,7 @@
     "1650114942c00ad291",
     "901c21f5-f966-4ab2-a85a-e1a3945e86d1",
     "bfc60b0c-98bd-4871-b885-a6cbf39f9f10",
+    "cc6edc68-682a-48bb-9cee-b0e4c009d9b9",
     "2aebd4c3-fa0d-4299-9f12-48d0321ab3ce",
     "1650114938d1f0331c",
     "1637331459451d8874",
