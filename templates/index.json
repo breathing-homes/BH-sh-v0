@@ -204,10 +204,10 @@
         "half_bg_color": "#ffffff"
       }
     },
-    "cc6edc68-682a-48bb-9cee-b0e4c009d9b9": {
+    "b4b99a28-68e5-43bd-abe4-af5ffe7dc95b": {
       "type": "custom-html",
       "blocks": {
-        "template--20463255552309__cc6edc68-682a-48bb-9cee-b0e4c009d9b9-section_padding-1": {
+        "d8e67fee-1076-4dc8-ac89-ebd47ae65cc8": {
           "type": "section_padding",
           "settings": {
             "section_padding_top": 0,
@@ -220,7 +220,7 @@
         }
       },
       "block_order": [
-        "template--20463255552309__cc6edc68-682a-48bb-9cee-b0e4c009d9b9-section_padding-1"
+        "d8e67fee-1076-4dc8-ac89-ebd47ae65cc8"
       ],
       "settings": {
         "section_sub_title": "",
@@ -368,6 +368,7 @@
     },
     "1650114938d1f0331c": {
       "type": "multiple-banner",
+      "disabled": true,
       "blocks": {
         "1650114937c5e17a67-0": {
           "type": "banner",
@@ -487,8 +488,33 @@
         "custom_liquid": "<style>\n  .comparison {\n  max-width: 700px;\n  margin: 0 auto;\n  text-align: center;\n}\n\n.comparison table {\n  width: 100%;\n  border-collapse: collapse;\n  border-spacing: 0;\n  table-layout: auto;\n}\n\n.comparison td,\n.comparison th {\n  empty-cells: show;\n  padding: 10px;\n  color: #808080;\n  font-size: 15px;\n}\n\n.comparison tbody tr:nth-child(odd) {\n  display: none;\n}\n\n.fa-check {\n  color: green;\n}\n\n.comparison th {\n  font-weight: normal;\n  padding: 0;\n  border: none;\n}\n\n.comparison tr td:first-child {\n  text-align: left;\n  padding: 15px;\n  border: none;\n}\n.comparison tr td:NOT(first-child) {\n  text-align: centre;\n  width: 30%;\n  padding: 15px;\n  border: none;\n}\n\n.comparison tr td:nth-child(2), \n.comparison tr:first-child th:nth-child(2) {\n  border-left: 4px solid #49CD22;\n  border-right: 4px solid #49CD22;\n} \n\n.comparison tr:first-child th:nth-child(2) {\n  border-top: 4px solid #49CD22;\n  background-color: #49CD22;\n} \n.comparison tr:first-child th {\n   padding: 10px 6px;\n   width: 24%;\n}\n.comparison tr:last-child td:nth-child(2) {\n  border-bottom: 4px solid #49CD22;\n}\n.comparison tr td {\ntext-align: center;\n}\n\n.comparison .others span {\n  font-size: 25px;\n  color: grey;\n}\n\n.comparison .BH span {\n  font-size: 30px;\n  color: #fff;\n}\n<\/style>\n<div class=\"comparison\">\n  <table>\n    <thead>\n      <tr>\n        <th><\/th>\n        <th class=\"price-info BH-border\">\n          <div class=\"price-now BH\"><span>Breathing Homes<\/span>\n          <\/div>\n        <\/th>\n        <th class=\"price-info\">\n          <div class=\"price-now others\"><span>Others<\/span>\n          <\/div>\n        <\/th>\n      <\/tr>\n    <\/thead>\n    <tbody>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">item_1<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>item_1<\/td>\n        <td><span><svg class=\"svg-green-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1.5em\" viewBox=\"0 0 512 512\"><<style>.svg-green-col{fill:#37b96f}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z\"\/><\/svg>\n        <\/td>\n        <td><svg class=\"svg-grey-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1em\" viewBox=\"0 0 512 512\"><<style>.svg-grey-col{fill:#929396}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z\"\/><\/svg><\/td>\n      <\/tr>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">Quantity<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>Quantity<\/td>\n        <td>No Limits<\/td>\n        <td>Limited<\/td>\n      <\/tr>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">Plant Picking<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>Plant Picking<\/td>\n        <td>Expert Picked<\/td>\n        <td>Random<\/td>\n      <\/tr>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">Chat Support<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>Chat Support<\/td>\n        <td><span><svg class=\"svg-green-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1.5em\" viewBox=\"0 0 512 512\"><<style>.svg-green-col{fill:#37b96f}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z\"\/><\/svg>\n        <\/td>\n        <td><svg class=\"svg-grey-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1em\" viewBox=\"0 0 512 512\"><<style>.svg-grey-col{fill:#929396}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z\"\/><\/svg><\/td>\n      <\/tr>\n    <\/tbody>\n  <\/table>\n\n<\/div>"
       }
     },
+    "cc6edc68-682a-48bb-9cee-b0e4c009d9b9": {
+      "type": "custom-html",
+      "blocks": {
+        "template--20463255552309__cc6edc68-682a-48bb-9cee-b0e4c009d9b9-section_padding-1": {
+          "type": "section_padding",
+          "settings": {
+            "section_padding_top": 0,
+            "section_padding_bottom": 0,
+            "section_padding_top_md": 0,
+            "section_padding_bottom_md": 0,
+            "section_padding_top_xs": 0,
+            "section_padding_bottom_xs": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20463255552309__cc6edc68-682a-48bb-9cee-b0e4c009d9b9-section_padding-1"
+      ],
+      "settings": {
+        "section_sub_title": "",
+        "section_title": "",
+        "custom_html_content": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.linearicons.com\/free\/1.0.0\/icon-font.min.css\">\n\n\n\n<style>\n\tsection {\n  position: relative;\n  background: white; }\n  section:last-of-type {\n    min-height: 20vh; }\n  section.focus .page-header {\n    color: #907dda; }\n    section.focus .page-header:after {\n      visibility: visible;\n      opacity: 1; }\n\n.section-header {\n  position: relative;\n  font-size: 26px;\n  font-weight: 400;\n  color: #333;\n  text-align: center;\n  line-height: 60px;\n  letter-spacing: 1px; }\n  .section-header:after {\n    content: '';\n    display: block;\n    position: absolute;\n    left: 50%;\n    bottom: 0;\n    width: 70px;\n    height: 2px;\n    background: #907dda;\n    -webkit-transform: translate(-50%, 0);\n    -webkit-transform: translate3d(-50%, 0, 0);\n    -ms-transform: translate(-50%, 0);\n    -ms-transform: translate3d(-50%, 0, 0);\n    transform: translate(-50%, 0);\n    transform: translate3d(-50%, 0, 0); }\n\n#features {\n  padding-bottom: 0;\n  color: #333; }\n  #features .feature {\n    padding: 25px 0; }\n    @media (min-width: 768px) {\n      #features .feature {\n        padding: 50px 0; } }\n    #features .feature svg {\n      height: 40px;\n      margin-bottom: 15px;\n      fill: currentColor; }\n      @media (min-width: 768px) {\n        #features .feature svg {\n          height: 60px; } }\n    #features .feature h4 {\n      font-size: 14px;\n      font-weight: 600;\n      text-transform: uppercase;\n      line-height: 24px;\n      letter-spacing: 2px;\n      color: #907dda; }\n<\/style>\n\n\t<section id=\"features\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row justify-content-center\">\n    <div class=\"col-12 text-center\">\n\t\t\t\t\t<div class=\"section-header\">\n\t\t\t\t\t\tNo Damage Guarantee Delivery\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n<!-- \/.col -->\n\t\t\t<\/div>\n<!-- \/.row -->\n\t\t\t\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"feature-container col-xs-12\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\n<div class=\"feature col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0 text-center\">\n\t\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1em\" viewbox=\"0 0 512 512\"><!--! Font Awesome Free 6.4.2 by @fontawesome - https:\/\/fontawesome.com License - https:\/\/fontawesome.com\/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d=\"M367.2 412.5L99.5 144.8C77.1 176.1 64 214.5 64 256c0 106 86 192 192 192c41.5 0 79.9-13.1 111.2-35.5zm45.3-45.3C434.9 335.9 448 297.5 448 256c0-106-86-192-192-192c-41.5 0-79.9 13.1-111.2 35.5L412.5 367.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z\"><\/path><\/svg>\n\t\t\n\t\t\t\t\t\t\t<p>0% Packaging<\/p>\n\t\t\t\t\t\t<\/div>\n<!-- \/.feature -->\n\t\t\t\t<div class=\"feature col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0 text-center\">\n\t\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 576 512\"><!--! Font Awesome Free 6.4.2 by @fontawesome - https:\/\/fontawesome.com License - https:\/\/fontawesome.com\/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d=\"M7.8 207.7c-13.1-17.8-9.3-42.8 8.5-55.9L142.9 58.5C166.2 41.3 194.5 32 223.5 32H384 544c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H507.2l-44.9 36c-22.7 18.2-50.9 28-80 28H304 288 224c-17.7 0-32-14.3-32-32s14.3-32 32-32h64 16c8.8 0 16-7.2 16-16s-7.2-16-16-16H183.4L63.7 216.2c-17.8 13.1-42.8 9.3-55.9-8.5zM382.4 160l0 0 .9 0c-.3 0-.6 0-.9 0zM568.2 304.3c13.1 17.8 9.3 42.8-8.5 55.9L433.1 453.5c-23.4 17.2-51.6 26.5-80.7 26.5H192 32c-17.7 0-32-14.3-32-32V384c0-17.7 14.3-32 32-32H68.8l44.9-36c22.7-18.2 50.9-28 80-28H272h16 64c17.7 0 32 14.3 32 32s-14.3 32-32 32H288 272c-8.8 0-16 7.2-16 16s7.2 16 16 16H392.6l119.7-88.2c17.8-13.1 42.8-9.3 55.9 8.5zM193.6 352l0 0-.9 0c.3 0 .6 0 .9 0z\"><\/path><\/svg>\n\t\t\n\t\t\t\t\t\t\t<p>Handled with Care<\/p>\n\t\t\t\t\t\t<\/div>\n<!-- \/.feature -->\n\n\t\t\t\t\t\t<div class=\"feature col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0 text-center\">\n\t\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\"><!--! Font Awesome Free 6.4.2 by @fontawesome - https:\/\/fontawesome.com License - https:\/\/fontawesome.com\/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d=\"M80 48a48 48 0 1 1 96 0A48 48 0 1 1 80 48zm64 193.7v65.1l51 51c7.1 7.1 11.8 16.2 13.4 26.1l15.2 90.9c2.9 17.4-8.9 33.9-26.3 36.8s-33.9-8.9-36.8-26.3l-14.3-85.9L66.8 320C54.8 308 48 291.7 48 274.7V186.6c0-32.4 26.2-58.6 58.6-58.6c24.1 0 46.5 12 59.9 32l47.4 71.1 10.1 5V160c0-17.7 14.3-32 32-32H384c17.7 0 32 14.3 32 32v76.2l10.1-5L473.5 160c13.3-20 35.8-32 59.9-32c32.4 0 58.6 26.2 58.6 58.6v88.1c0 17-6.7 33.3-18.7 45.3l-79.4 79.4-14.3 85.9c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l15.2-90.9c1.6-9.9 6.3-19 13.4-26.1l51-51V241.7l-19 28.5c-4.6 7-11 12.6-18.5 16.3l-59.6 29.8c-2.4 1.3-4.9 2.2-7.6 2.8c-2.6 .6-5.3 .9-7.9 .8H256.7c-2.5 .1-5-.2-7.5-.7c-2.9-.6-5.6-1.6-8.1-3l-59.5-29.8c-7.5-3.7-13.8-9.4-18.5-16.3l-19-28.5zM2.3 468.1L50.1 348.6l49.2 49.2-37.6 94c-6.6 16.4-25.2 24.4-41.6 17.8S-4.3 484.5 2.3 468.1zM512 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm77.9 348.6l47.8 119.5c6.6 16.4-1.4 35-17.8 41.6s-35-1.4-41.6-17.8l-37.6-94 49.2-49.2z\"><\/path><\/svg>\t\t\t\t\t\t\t<p>Helper to Transport<\/p>\n\t\t\t\t\t\t<\/div>\n<!-- \/.feature -->\n\n\t\t\t\t\t\t<div class=\"feature col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0 text-center\">\n\t\t\t\t\t\t\t<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\"><!--! Font Awesome Free 6.4.2 by @fontawesome - https:\/\/fontawesome.com License - https:\/\/fontawesome.com\/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d=\"M48.5 224H40c-13.3 0-24-10.7-24-24V72c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2L98.6 96.6c87.6-86.5 228.7-86.2 315.8 1c87.5 87.5 87.5 229.3 0 316.8s-229.3 87.5-316.8 0c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0c62.5 62.5 163.8 62.5 226.3 0s62.5-163.8 0-226.3c-62.2-62.2-162.7-62.5-225.3-1L185 183c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8H48.5z\"><\/path><\/svg>\n\t\t\t\n\t\t\t\t\t\t\t<p>Return on Delivery<\/p>\n\t\t\t\t\t\t<\/div>\n<!-- \/.feature -->\n\t\t\t\t\t<\/div>\n<!-- \/.row -->\n\t\t\t\t<\/div>\n<!-- \/.feature-container -->\n\n\t\t\t<\/div>\n<!-- \/.row -->\n\t\t<\/div>\n<!-- \/.container -->\n<\/section>"
+      }
+    },
     "913853f9-8062-434e-8eae-51e79eacea09": {
       "type": "subscribe",
+      "disabled": true,
       "blocks": {
         "template--14325560836214__913853f9-8062-434e-8eae-51e79eacea09-166669269314d665d2-0": {
           "type": "section_background",
@@ -542,6 +568,7 @@
     },
     "c0721119-deed-4f4f-9013-c0ad850a870a": {
       "type": "scrolling-text",
+      "disabled": true,
       "blocks": {
         "template--14511565209718__c0721119-deed-4f4f-9013-c0ad850a870a-16802251002c48508a-0": {
           "type": "single_content",
@@ -672,11 +699,12 @@
     "1650114942c00ad291",
     "901c21f5-f966-4ab2-a85a-e1a3945e86d1",
     "bfc60b0c-98bd-4871-b885-a6cbf39f9f10",
-    "cc6edc68-682a-48bb-9cee-b0e4c009d9b9",
+    "b4b99a28-68e5-43bd-abe4-af5ffe7dc95b",
     "2aebd4c3-fa0d-4299-9f12-48d0321ab3ce",
     "1650114938d1f0331c",
     "1637331459451d8874",
     "de321b34-0b0f-45b6-b123-9c20ce130c03",
+    "cc6edc68-682a-48bb-9cee-b0e4c009d9b9",
     "913853f9-8062-434e-8eae-51e79eacea09",
     "c0721119-deed-4f4f-9013-c0ad850a870a"
   ]
