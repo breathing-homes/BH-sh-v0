@@ -79,6 +79,23 @@
     "1642600004294514c0": {
       "type": "service",
       "blocks": {
+        "572d29f3-fbb6-4ab8-a943-ed7f559cd9f4": {
+          "type": "section_margin",
+          "settings": {
+            "section_margin_top": 0,
+            "section_margin_bottom": 0,
+            "section_margin_top_md": 0,
+            "section_margin_bottom_md": 0,
+            "section_margin_top_xs": 0,
+            "section_margin_bottom_xs": 0
+          }
+        },
+        "b6efa714-f736-4736-bd31-4269f9eebe54": {
+          "type": "section_background",
+          "settings": {
+            "section_bg_color": "#ffffff"
+          }
+        },
         "16426000048430accc-0": {
           "type": "service",
           "settings": {
@@ -115,6 +132,18 @@
             "service_column_sm": 12
           }
         },
+        "a1a9cb9f-f7ba-4005-a5f2-cd9c50dbfa01": {
+          "type": "service",
+          "settings": {
+            "icon_image_enable": true,
+            "icon_image_select": "credit_card",
+            "service_title": "Secure Checkout",
+            "service_content": "<p>We ensure 100% Payment Secure.<\/p>",
+            "service_column": 3,
+            "service_column_md": 6,
+            "service_column_sm": 12
+          }
+        },
         "e136d65d-1b29-48bb-af32-4de0d245dc0b": {
           "type": "section_padding",
           "settings": {
@@ -128,19 +157,22 @@
         }
       },
       "block_order": [
+        "572d29f3-fbb6-4ab8-a943-ed7f559cd9f4",
+        "b6efa714-f736-4736-bd31-4269f9eebe54",
         "16426000048430accc-0",
         "16426000048430accc-1",
         "16426000048430accc-2",
+        "a1a9cb9f-f7ba-4005-a5f2-cd9c50dbfa01",
         "e136d65d-1b29-48bb-af32-4de0d245dc0b"
       ],
       "settings": {
-        "service_style_handle": "style_2",
+        "service_style_handle": "style_1",
         "large_width_enable": false,
         "margin_top_minus": false,
         "section_color_enable": true,
         "title_color": "#071c1f",
         "content_color": "#071c1f",
-        "half_bg_color": "#f2f6f7"
+        "half_bg_color": "#ffffff"
       }
     },
     "1650114938d1f0331c": {
