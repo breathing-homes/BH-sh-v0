@@ -175,6 +175,269 @@
         "half_bg_color": "#ffffff"
       }
     },
+    "901c21f5-f966-4ab2-a85a-e1a3945e86d1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20463255552309__901c21f5-f966-4ab2-a85a-e1a3945e86d1-section_padding-1": {
+          "type": "section_padding",
+          "settings": {
+            "section_padding_top": 0,
+            "section_padding_bottom": 0,
+            "section_padding_top_md": 0,
+            "section_padding_bottom_md": 0,
+            "section_padding_top_xs": 0,
+            "section_padding_bottom_xs": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20463255552309__901c21f5-f966-4ab2-a85a-e1a3945e86d1-section_padding-1"
+      ],
+      "settings": {
+        "section_title": "How it Works?",
+        "section_sub_title": "",
+        "heading_style_handle": "style_one",
+        "heading_left_position": false,
+        "rich_text_handle": ""
+      }
+    },
+    "bfc60b0c-98bd-4871-b885-a6cbf39f9f10": {
+      "type": "service",
+      "blocks": {
+        "e45d70e3-671d-4741-888b-82965edd85e7": {
+          "type": "section_margin",
+          "settings": {
+            "section_margin_top": 0,
+            "section_margin_bottom": 0,
+            "section_margin_top_md": 0,
+            "section_margin_bottom_md": 0,
+            "section_margin_top_xs": 0,
+            "section_margin_bottom_xs": 0
+          }
+        },
+        "459dc5e0-17d0-49c0-9785-09935ce1286c": {
+          "type": "section_background",
+          "settings": {
+            "section_bg_color": "#ffffff"
+          }
+        },
+        "8fe0e36c-2baa-491a-ba9e-014a2d5c987e": {
+          "type": "service",
+          "settings": {
+            "icon_image_enable": true,
+            "icon_image_select": "truck",
+            "service_title": "Free Shipping",
+            "service_content": "<p>Free shipping on orders over <strong>$99.<\/strong><\/p>",
+            "service_column": 2,
+            "service_column_md": 6,
+            "service_column_sm": 12
+          }
+        },
+        "11198fa0-1060-4eb2-b75f-72e6d3f0dcf4": {
+          "type": "service",
+          "settings": {
+            "icon_image_enable": true,
+            "icon_image_select": "money",
+            "service_title": "Money Back",
+            "service_content": "<p>15 days money back guarantee.<\/p>",
+            "service_column": 2,
+            "service_column_md": 6,
+            "service_column_sm": 12
+          }
+        },
+        "0a542c4e-c5e4-41ec-994c-d2819d81a2a1": {
+          "type": "service",
+          "settings": {
+            "icon_image_enable": true,
+            "icon_image_select": "credit_card",
+            "service_title": "Secure Checkout",
+            "service_content": "<p>We ensure 100% Payment Secure.<\/p>",
+            "service_column": 2,
+            "service_column_md": 6,
+            "service_column_sm": 12
+          }
+        },
+        "9f5b0415-06db-4078-a72b-e214b147e324": {
+          "type": "service",
+          "settings": {
+            "icon_image_enable": true,
+            "icon_image_select": "credit_card",
+            "service_title": "Secure Checkout",
+            "service_content": "<p>We ensure 100% Payment Secure.<\/p>",
+            "service_column": 2,
+            "service_column_md": 6,
+            "service_column_sm": 12
+          }
+        },
+        "ecd601ae-cc63-4c39-a143-40ced282da67": {
+          "type": "section_padding",
+          "settings": {
+            "section_padding_top": 0,
+            "section_padding_bottom": 100,
+            "section_padding_top_md": 0,
+            "section_padding_bottom_md": 80,
+            "section_padding_top_xs": 0,
+            "section_padding_bottom_xs": 50
+          }
+        }
+      },
+      "block_order": [
+        "e45d70e3-671d-4741-888b-82965edd85e7",
+        "459dc5e0-17d0-49c0-9785-09935ce1286c",
+        "8fe0e36c-2baa-491a-ba9e-014a2d5c987e",
+        "11198fa0-1060-4eb2-b75f-72e6d3f0dcf4",
+        "0a542c4e-c5e4-41ec-994c-d2819d81a2a1",
+        "9f5b0415-06db-4078-a72b-e214b147e324",
+        "ecd601ae-cc63-4c39-a143-40ced282da67"
+      ],
+      "settings": {
+        "service_style_handle": "style_1",
+        "large_width_enable": true,
+        "margin_top_minus": false,
+        "section_color_enable": true,
+        "title_color": "#071c1f",
+        "content_color": "#071c1f",
+        "half_bg_color": "#ffffff"
+      }
+    },
+    "2aebd4c3-fa0d-4299-9f12-48d0321ab3ce": {
+      "type": "service-4",
+      "blocks": {
+        "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-service-1": {
+          "type": "service",
+          "settings": {
+            "icon_image_enable": true,
+            "service_icon_enable": true,
+            "service_icon_select": "parts",
+            "service_title": "Free Shipping",
+            "service_content": "<p>Provide free home delivery for all product over $100<\/p>",
+            "service_button_title": "Learn More",
+            "service_url": "",
+            "service_column": 2,
+            "service_column_md": 6,
+            "service_column_sm": 12,
+            "block_color_enable": false,
+            "title_color": "#071c1f",
+            "title_hover_color": "#e53e29",
+            "content_color": "#071c1f",
+            "button_color": "#8cb2b2",
+            "button_hover_color": "#e53e29"
+          }
+        },
+        "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-service-2": {
+          "type": "service",
+          "settings": {
+            "icon_image_enable": true,
+            "service_icon_enable": true,
+            "service_icon_select": "parts",
+            "service_title": "Free Shipping",
+            "service_content": "<p>Provide free home delivery for all product over $100<\/p>",
+            "service_button_title": "Learn More",
+            "service_url": "",
+            "service_column": 2,
+            "service_column_md": 6,
+            "service_column_sm": 12,
+            "block_color_enable": false,
+            "title_color": "#071c1f",
+            "title_hover_color": "#e53e29",
+            "content_color": "#071c1f",
+            "button_color": "#8cb2b2",
+            "button_hover_color": "#e53e29"
+          }
+        },
+        "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-service-3": {
+          "type": "service",
+          "settings": {
+            "icon_image_enable": true,
+            "service_icon_enable": true,
+            "service_icon_select": "parts",
+            "service_title": "Free Shipping",
+            "service_content": "<p>Provide free home delivery for all product over $100<\/p>",
+            "service_button_title": "Learn More",
+            "service_url": "",
+            "service_column": 2,
+            "service_column_md": 6,
+            "service_column_sm": 12,
+            "block_color_enable": false,
+            "title_color": "#071c1f",
+            "title_hover_color": "#e53e29",
+            "content_color": "#071c1f",
+            "button_color": "#8cb2b2",
+            "button_hover_color": "#e53e29"
+          }
+        },
+        "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-service-4": {
+          "type": "service",
+          "settings": {
+            "icon_image_enable": true,
+            "service_icon_enable": true,
+            "service_icon_select": "parts",
+            "service_title": "Free Shipping",
+            "service_content": "<p>Provide free home delivery for all product over $100<\/p>",
+            "service_button_title": "Learn More",
+            "service_url": "",
+            "service_column": 2,
+            "service_column_md": 6,
+            "service_column_sm": 12,
+            "block_color_enable": false,
+            "title_color": "#071c1f",
+            "title_hover_color": "#e53e29",
+            "content_color": "#071c1f",
+            "button_color": "#8cb2b2",
+            "button_hover_color": "#e53e29"
+          }
+        },
+        "0d426ff5-895c-4222-b45c-2f3617317c4a": {
+          "type": "service",
+          "settings": {
+            "icon_image_enable": true,
+            "service_icon_enable": true,
+            "service_icon_select": "parts",
+            "service_title": "Free Shipping",
+            "service_content": "<p>Provide free home delivery for all product over $100<\/p>",
+            "service_button_title": "Learn More",
+            "service_url": "",
+            "service_column": 2,
+            "service_column_md": 6,
+            "service_column_sm": 12,
+            "block_color_enable": false,
+            "title_color": "#071c1f",
+            "title_hover_color": "#e53e29",
+            "content_color": "#071c1f",
+            "button_color": "#8cb2b2",
+            "button_hover_color": "#e53e29"
+          }
+        },
+        "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-section_padding-1": {
+          "type": "section_padding",
+          "settings": {
+            "section_padding_top": 0,
+            "section_padding_bottom": 90,
+            "section_padding_top_md": 0,
+            "section_padding_bottom_md": 50,
+            "section_padding_top_xs": 0,
+            "section_padding_bottom_xs": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-service-1",
+        "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-service-2",
+        "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-service-3",
+        "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-service-4",
+        "0d426ff5-895c-4222-b45c-2f3617317c4a",
+        "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-section_padding-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "section_title": "How it works?",
+        "section_sub_title": "",
+        "heading_style_handle": "style_two",
+        "heading_left_position": false
+      }
+    },
     "1650114938d1f0331c": {
       "type": "multiple-banner",
       "blocks": {
@@ -480,6 +743,9 @@
   "order": [
     "1650114942c00ad291",
     "1642600004294514c0",
+    "901c21f5-f966-4ab2-a85a-e1a3945e86d1",
+    "bfc60b0c-98bd-4871-b885-a6cbf39f9f10",
+    "2aebd4c3-fa0d-4299-9f12-48d0321ab3ce",
     "1650114938d1f0331c",
     "1637331459451d8874",
     "de321b34-0b0f-45b6-b123-9c20ce130c03",
