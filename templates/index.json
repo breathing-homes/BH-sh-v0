@@ -927,19 +927,19 @@
         "template--20463255552309__9a94aebc-5c2e-4747-a940-16715a851bd9-tab_with_product-1": {
           "type": "tab_with_product",
           "settings": {
-            "tab_product_handle": ""
+            "tab_product_handle": "all-products-collection"
           }
         },
         "template--20463255552309__9a94aebc-5c2e-4747-a940-16715a851bd9-tab_with_product-2": {
           "type": "tab_with_product",
           "settings": {
-            "tab_product_handle": ""
+            "tab_product_handle": "frontpage"
           }
         },
         "template--20463255552309__9a94aebc-5c2e-4747-a940-16715a851bd9-tab_with_product-3": {
           "type": "tab_with_product",
           "settings": {
-            "tab_product_handle": ""
+            "tab_product_handle": "all-products-collection"
           }
         },
         "template--20463255552309__9a94aebc-5c2e-4747-a940-16715a851bd9-section_padding-1": {
@@ -964,7 +964,7 @@
         "large_width_enable": false,
         "section_title": "Section Title",
         "section_sub_title": "\/\/ Sub Title",
-        "heading_style_handle": "style_one",
+        "heading_style_handle": "style_two",
         "tab_bar_right": false,
         "view_all_button_enable": true,
         "view_all_button_title": "View All",
