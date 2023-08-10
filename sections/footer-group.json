@@ -52,7 +52,7 @@
         "footer_top_enable": true,
         "copyright_enable": true,
         "copyright_conten_style": "style_3",
-        "menu_handle": "footer",
+        "menu_handle": "",
         "logo_width": 150,
         "copyright_title": "Copyright & Design By",
         "copyright_content": "Breathing Homes",
