@@ -486,36 +486,36 @@
       "settings": {
       }
     },
-    "1637331459451d8874": {
+    "a49c21e1-5ef7-44b6-a700-10015d236a4f": {
       "type": "featured-collection",
       "blocks": {
-        "16373314598a51c797-0": {
+        "template--20463255552309__a49c21e1-5ef7-44b6-a700-10015d236a4f-section_padding-1": {
           "type": "section_padding",
           "settings": {
             "section_padding_top": 0,
-            "section_padding_bottom": 100,
+            "section_padding_bottom": 70,
             "section_padding_top_md": 0,
-            "section_padding_bottom_md": 80,
+            "section_padding_bottom_md": 50,
             "section_padding_top_xs": 0,
-            "section_padding_bottom_xs": 50
+            "section_padding_bottom_xs": 35
           }
         }
       },
       "block_order": [
-        "16373314598a51c797-0"
+        "template--20463255552309__a49c21e1-5ef7-44b6-a700-10015d236a4f-section_padding-1"
       ],
       "settings": {
-        "large_width_enable": true,
-        "section_title": "New Arrivals",
-        "section_sub_title": "There are many variations of passages",
+        "large_width_enable": false,
+        "section_title": "Look at these plants...",
+        "section_sub_title": "Sub Title",
         "heading_style_handle": "style_two",
         "heading_left_position": false,
         "featured_product_handle": "all-products-collection",
         "view_all_button_enable": true,
         "view_all_button_title": "View All",
-        "featured_product_limit_handle": 16,
-        "product_row": 2,
-        "product_column": 5,
+        "featured_product_limit_handle": 8,
+        "product_row": 1,
+        "product_column": 4,
         "product_column_md": 3,
         "product_column_sm": 2,
         "autoplay_true": false,
@@ -610,12 +610,12 @@
         "template--20463255552309__51372e3d-dcb0-4cd6-a73e-18a96f904a8e-section_padding-1": {
           "type": "section_padding",
           "settings": {
-            "section_padding_top": 115,
-            "section_padding_bottom": 70,
-            "section_padding_top_md": 75,
-            "section_padding_bottom_md": 30,
-            "section_padding_top_xs": 55,
-            "section_padding_bottom_xs": 30
+            "section_padding_top": 40,
+            "section_padding_bottom": 30,
+            "section_padding_top_md": 35,
+            "section_padding_bottom_md": 15,
+            "section_padding_top_xs": 30,
+            "section_padding_bottom_xs": 15
           }
         },
         "template--20463255552309__51372e3d-dcb0-4cd6-a73e-18a96f904a8e-section_background-1": {
@@ -634,13 +634,13 @@
         "template--20463255552309__51372e3d-dcb0-4cd6-a73e-18a96f904a8e-section_background-1"
       ],
       "settings": {
-        "section_title": "Section Title",
-        "section_sub_title": "\/\/ Sub Title",
+        "section_title": "What they say?",
+        "section_sub_title": "",
         "heading_style_handle": "style_one",
         "heading_left_position": false,
-        "column": 3,
-        "column_md": 2,
-        "column_sm": 1,
+        "column": 4,
+        "column_md": 3,
+        "column_sm": 2,
         "autoplay_true": false,
         "autoplay_speed": 7000,
         "section_color_enable": false,
@@ -885,44 +885,9 @@
         "animation_speed": "20"
       }
     },
-    "a49c21e1-5ef7-44b6-a700-10015d236a4f": {
-      "type": "featured-collection",
-      "blocks": {
-        "template--20463255552309__a49c21e1-5ef7-44b6-a700-10015d236a4f-section_padding-1": {
-          "type": "section_padding",
-          "settings": {
-            "section_padding_top": 0,
-            "section_padding_bottom": 70,
-            "section_padding_top_md": 0,
-            "section_padding_bottom_md": 50,
-            "section_padding_top_xs": 0,
-            "section_padding_bottom_xs": 35
-          }
-        }
-      },
-      "block_order": [
-        "template--20463255552309__a49c21e1-5ef7-44b6-a700-10015d236a4f-section_padding-1"
-      ],
-      "settings": {
-        "large_width_enable": false,
-        "section_title": "Section Title",
-        "section_sub_title": "Sub Title",
-        "heading_style_handle": "style_one",
-        "heading_left_position": false,
-        "featured_product_handle": "",
-        "view_all_button_enable": true,
-        "view_all_button_title": "View All",
-        "featured_product_limit_handle": 8,
-        "product_row": 1,
-        "product_column": 4,
-        "product_column_md": 3,
-        "product_column_sm": 2,
-        "autoplay_true": false,
-        "autoplay_speed": 7000
-      }
-    },
     "9a94aebc-5c2e-4747-a940-16715a851bd9": {
       "type": "tab-with-product",
+      "disabled": true,
       "blocks": {
         "template--20463255552309__9a94aebc-5c2e-4747-a940-16715a851bd9-tab_with_product-1": {
           "type": "tab_with_product",
@@ -987,14 +952,13 @@
     "b4b99a28-68e5-43bd-abe4-af5ffe7dc95b",
     "2aebd4c3-fa0d-4299-9f12-48d0321ab3ce",
     "1650114938d1f0331c",
-    "1637331459451d8874",
+    "a49c21e1-5ef7-44b6-a700-10015d236a4f",
     "de321b34-0b0f-45b6-b123-9c20ce130c03",
     "cc6edc68-682a-48bb-9cee-b0e4c009d9b9",
     "51372e3d-dcb0-4cd6-a73e-18a96f904a8e",
     "3228c88f-1ab3-4724-877a-0bea141b9936",
     "913853f9-8062-434e-8eae-51e79eacea09",
     "c0721119-deed-4f4f-9013-c0ad850a870a",
-    "a49c21e1-5ef7-44b6-a700-10015d236a4f",
     "9a94aebc-5c2e-4747-a940-16715a851bd9"
   ]
 }
