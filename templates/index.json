@@ -21,11 +21,11 @@
       "settings": {
         "row_reverse": true,
         "sub_title": "\/\/ Sub Title",
-        "title": "Title <span>.<\/span>",
+        "title": "Title <span>hi<\/span>",
         "main_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore<\/p>",
         "show_button": true,
         "button_title": "View More",
-        "button_url": "",
+        "button_url": "shopify:\/\/collections",
         "section_color_enable": false,
         "button_text_color": "#fff",
         "button_bg_color": "#e53e29",
