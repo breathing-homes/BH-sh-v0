@@ -16,7 +16,7 @@
         "product_column_md": "6",
         "product_column_xs": "6",
         "tab_bar_enable": true,
-        "showing_product_counter_enable": true,
+        "showing_product_counter_enable": false,
         "showing_title_handle": "Showing | of | result",
         "short_by_enable": true,
         "sidebar_handle": "left_sidebar_handle",
