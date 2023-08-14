@@ -27,7 +27,7 @@
         "button_title": "View More",
         "button_url": "shopify:\/\/collections",
         "section_color_enable": false,
-        "button_text_color": "#fff",
+        "button_text_color": "#ffffff",
         "button_bg_color": "#e53e29",
         "button_text_hover_color": "#071c1f",
         "button_bg_hover_color": "#071c1f"
@@ -35,7 +35,6 @@
     },
     "1650114942c00ad291": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "1650114942ce75388e-0": {
           "type": "slide",
@@ -98,6 +97,7 @@
         "1650114942ce75388e-1",
         "1650114942ce75388e-2"
       ],
+      "disabled": true,
       "settings": {
         "autoplay_true": true,
         "autoplay_speed": 7000,
@@ -264,7 +264,6 @@
     },
     "b4b99a28-68e5-43bd-abe4-af5ffe7dc95b": {
       "type": "custom-html",
-      "disabled": true,
       "blocks": {
         "d8e67fee-1076-4dc8-ac89-ebd47ae65cc8": {
           "type": "section_padding",
@@ -281,6 +280,7 @@
       "block_order": [
         "d8e67fee-1076-4dc8-ac89-ebd47ae65cc8"
       ],
+      "disabled": true,
       "settings": {
         "section_sub_title": "",
         "section_title": "",
@@ -289,7 +289,6 @@
     },
     "2aebd4c3-fa0d-4299-9f12-48d0321ab3ce": {
       "type": "service-4",
-      "disabled": true,
       "blocks": {
         "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-service-1": {
           "type": "service",
@@ -416,6 +415,7 @@
         "ce8025e6-2249-41bf-80cc-2a61e8d4b619",
         "template--20463255552309__2aebd4c3-fa0d-4299-9f12-48d0321ab3ce-section_padding-1"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -428,7 +428,6 @@
     },
     "1650114938d1f0331c": {
       "type": "multiple-banner",
-      "disabled": true,
       "blocks": {
         "1650114937c5e17a67-0": {
           "type": "banner",
@@ -483,6 +482,7 @@
         "1650114937c5e17a67-1",
         "1650114937c5e17a67-2"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -545,7 +545,7 @@
         "section_sub_title": "Better experience and fresh plants guaranteed!",
         "heading_style_handle": "style_two",
         "heading_left_position": false,
-        "custom_liquid": "<style>\n  .comparison {\n  max-width: 700px;\n  margin: 0 auto;\n  text-align: center;\n}\n\n.comparison table {\n  width: 100%;\n  border-collapse: collapse;\n  border-spacing: 0;\n  table-layout: auto;\n}\n\n.comparison td,\n.comparison th {\n  empty-cells: show;\n  padding: 10px;\n  color: #808080;\n  font-size: 15px;\n}\n\n.comparison tbody tr:nth-child(odd) {\n  display: none;\n}\n\n.fa-check {\n  color: green;\n}\n\n.comparison th {\n  font-weight: normal;\n  padding: 0;\n  border: none;\n}\n\n.comparison tr td:first-child {\n  text-align: left;\n  padding: 15px;\n  border: none;\n}\n.comparison tr td:NOT(first-child) {\n  text-align: centre;\n  width: 30%;\n  padding: 15px;\n  border: none;\n}\n\n.comparison tr td:nth-child(2), \n.comparison tr:first-child th:nth-child(2) {\n  border-left: 4px solid #49CD22;\n  border-right: 4px solid #49CD22;\n} \n\n.comparison tr:first-child th:nth-child(2) {\n  border-top: 4px solid #49CD22;\n  background-color: #49CD22;\n} \n.comparison tr:first-child th {\n   padding: 10px 6px;\n   width: 24%;\n}\n.comparison tr:last-child td:nth-child(2) {\n  border-bottom: 4px solid #49CD22;\n}\n.comparison tr td {\ntext-align: center;\n}\n\n.comparison .others span {\n  font-size: 25px;\n  color: grey;\n}\n\n.comparison .BH span {\n  font-size: 30px;\n  color: #fff;\n}\n<\/style>\n<div class=\"comparison\">\n  <table>\n    <thead>\n      <tr>\n        <th><\/th>\n        <th class=\"price-info BH-border\">\n          <div class=\"price-now BH\"><span>Breathing Homes<\/span>\n          <\/div>\n        <\/th>\n        <th class=\"price-info\">\n          <div class=\"price-now others\"><span>Others<\/span>\n          <\/div>\n        <\/th>\n      <\/tr>\n    <\/thead>\n    <tbody>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">item_1<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>item_1<\/td>\n        <td><span><svg class=\"svg-green-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1.5em\" viewBox=\"0 0 512 512\"><<style>.svg-green-col{fill:#37b96f}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z\"\/><\/svg>\n        <\/td>\n        <td><svg class=\"svg-grey-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1em\" viewBox=\"0 0 512 512\"><<style>.svg-grey-col{fill:#929396}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z\"\/><\/svg><\/td>\n      <\/tr>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">Quantity<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>Quantity<\/td>\n        <td>No Limits<\/td>\n        <td>Limited<\/td>\n      <\/tr>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">Plant Picking<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>Plant Picking<\/td>\n        <td>Expert Picked<\/td>\n        <td>Random<\/td>\n      <\/tr>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">Chat Support<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>Chat Support<\/td>\n        <td><span><svg class=\"svg-green-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1.5em\" viewBox=\"0 0 512 512\"><<style>.svg-green-col{fill:#37b96f}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z\"\/><\/svg>\n        <\/td>\n        <td><svg class=\"svg-grey-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1em\" viewBox=\"0 0 512 512\"><<style>.svg-grey-col{fill:#929396}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z\"\/><\/svg><\/td>\n      <\/tr>\n    <\/tbody>\n  <\/table>\n\n<\/div>"
+        "custom_liquid": "<style>\n  .comparison {\n  max-width: 700px;\n  margin: 0 auto;\n  text-align: center;\n}\n\n.comparison table {\n  width: 100%;\n  border-collapse: collapse;\n  border-spacing: 0;\n  table-layout: auto;\n}\n\n.comparison td,\n.comparison th {\n  empty-cells: show;\n  padding: 10px;\n  color: #808080;\n  font-size: 15px;\n}\n\n.comparison tbody tr:nth-child(odd) {\n  display: none;\n}\n\n.fa-check {\n  color: green;\n}\n\n.comparison th {\n  font-weight: normal;\n  padding: 0;\n  border: none;\n  border-bottom: 0.5px solid grey;\n  text-align: center;\n}\n\n.comparison tr td:first-child {\n  text-align: left;\n  padding: 15px;\n  border: none;\n}\n.comparison tr td:NOT(first-child) {\n  text-align: center;\n  width: 30%;\n  padding: 15px;\n  border: none;\n}\n\n.comparison tr td:nth-child(2), \n.comparison tr:first-child th:nth-child(2) {\n  border-left: 4px solid #49CD22;\n  border-right: 4px solid #49CD22;\n} \n\n.comparison tr:first-child th:nth-child(2) {\n  border-top: 4px solid #49CD22;\n  background-color: #49CD22;\n} \n.comparison tr:first-child th {\n   padding: 10px 6px;\n   width: 24%;\n}\n.comparison tr:last-child td:nth-child(2) {\n  border-bottom: 4px solid #49CD22;\n}\n.comparison tr td {\ntext-align: center;\n}\n\n.comparison .others span {\n  font-size: 25px;\n  color: grey;\n}\n\n.comparison .BH span {\n  font-size: 30px;\n  color: #fff;\n}\n<\/style>\n<div class=\"comparison\">\n  <table>\n    <thead>\n      <tr>\n        <th><\/th>\n        <th class=\"price-info BH-border\">\n          <div class=\"price-now BH\"><span>Breathing Homes<\/span>\n          <\/div>\n        <\/th>\n        <th class=\"price-info\">\n          <div class=\"price-now others\"><span>Others<\/span>\n          <\/div>\n        <\/th>\n      <\/tr>\n    <\/thead>\n    <tbody>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">item_1<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>item_1<\/td>\n        <td><span><svg class=\"svg-green-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1.5em\" viewBox=\"0 0 512 512\"><<style>.svg-green-col{fill:#37b96f}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z\"\/><\/svg>\n        <\/td>\n        <td><svg class=\"svg-grey-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1em\" viewBox=\"0 0 512 512\"><<style>.svg-grey-col{fill:#929396}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z\"\/><\/svg><\/td>\n      <\/tr>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">Quantity<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>Quantity<\/td>\n        <td>No Limits<\/td>\n        <td>Limited<\/td>\n      <\/tr>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">Plant Picking<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>Plant Picking<\/td>\n        <td>Expert Picked<\/td>\n        <td>Random<\/td>\n      <\/tr>\n      <tr>\n        <td><\/td>\n        <td colspan=\"2\">Chat Support<\/td>\n      <\/tr>\n      <tr class=\"compare-row\">\n        <td>Chat Support<\/td>\n        <td><span><svg class=\"svg-green-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1.5em\" viewBox=\"0 0 512 512\"><<style>.svg-green-col{fill:#37b96f}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z\"\/><\/svg>\n        <\/td>\n        <td><svg class=\"svg-grey-col\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"1em\" viewBox=\"0 0 512 512\"><<style>.svg-grey-col{fill:#929396}<\/style><path d=\"M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z\"\/><\/svg><\/td>\n      <\/tr>\n    <\/tbody>\n  <\/table>\n\n<\/div>"
       }
     },
     "cc6edc68-682a-48bb-9cee-b0e4c009d9b9": {
@@ -621,7 +621,7 @@
         "template--20463255552309__51372e3d-dcb0-4cd6-a73e-18a96f904a8e-section_background-1": {
           "type": "section_background",
           "settings": {
-            "section_bg_color": "#F2F6F7"
+            "section_bg_color": "#f2f6f7"
           }
         }
       },
@@ -705,7 +705,6 @@
     },
     "913853f9-8062-434e-8eae-51e79eacea09": {
       "type": "subscribe",
-      "disabled": true,
       "blocks": {
         "template--14325560836214__913853f9-8062-434e-8eae-51e79eacea09-166669269314d665d2-0": {
           "type": "section_background",
@@ -741,6 +740,7 @@
         "template--14325560836214__913853f9-8062-434e-8eae-51e79eacea09-166669269314d665d2-1",
         "template--14325560836214__913853f9-8062-434e-8eae-51e79eacea09-166669269314d665d2-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width_enable": false,
         "title": "Newsletter",
@@ -759,7 +759,6 @@
     },
     "c0721119-deed-4f4f-9013-c0ad850a870a": {
       "type": "scrolling-text",
-      "disabled": true,
       "blocks": {
         "template--14511565209718__c0721119-deed-4f4f-9013-c0ad850a870a-16802251002c48508a-0": {
           "type": "single_content",
@@ -881,13 +880,13 @@
         "171f584e-284a-47b2-8ef1-9e3a22b14096",
         "template--14511565209718__c0721119-deed-4f4f-9013-c0ad850a870a-16802251002c48508a-9"
       ],
+      "disabled": true,
       "settings": {
         "animation_speed": "20"
       }
     },
     "9a94aebc-5c2e-4747-a940-16715a851bd9": {
       "type": "tab-with-product",
-      "disabled": true,
       "blocks": {
         "template--20463255552309__9a94aebc-5c2e-4747-a940-16715a851bd9-tab_with_product-1": {
           "type": "tab_with_product",
@@ -925,6 +924,7 @@
         "template--20463255552309__9a94aebc-5c2e-4747-a940-16715a851bd9-tab_with_product-3",
         "template--20463255552309__9a94aebc-5c2e-4747-a940-16715a851bd9-section_padding-1"
       ],
+      "disabled": true,
       "settings": {
         "large_width_enable": false,
         "section_title": "Section Title",
