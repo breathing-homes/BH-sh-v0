@@ -7,11 +7,11 @@
           "type": "section_padding",
           "settings": {
             "section_padding_top": 0,
-            "section_padding_bottom": 95,
+            "section_padding_bottom": 35,
             "section_padding_top_md": 0,
-            "section_padding_bottom_md": 70,
+            "section_padding_bottom_md": 35,
             "section_padding_top_xs": 0,
-            "section_padding_bottom_xs": 50
+            "section_padding_bottom_xs": 30
           }
         }
       },
@@ -132,6 +132,7 @@
       "block_order": [
         "template--20463255552309__901c21f5-f966-4ab2-a85a-e1a3945e86d1-section_padding-1"
       ],
+      "disabled": true,
       "settings": {
         "section_title": "Benefits",
         "section_sub_title": "",
