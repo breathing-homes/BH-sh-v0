@@ -126,10 +126,14 @@ endif
       --section-bg-1: {{ settings.section_bg_color_1 }};
     }
     .slick-arrow-1 .slick-arrow {
-        color: {{ settings.carousel_arrow_color }}!important;
+        color: {{ settings.carousel_arrow_color }} !important;
     }
   </style>
   {%- endif -%}
-  
+  <style>
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
 </body>
 </html>
