@@ -19,7 +19,7 @@
         "template--20463255552309__19ba3178-7577-4a62-9779-b0128f2b3625-section_padding-1"
       ],
       "custom_css": [
-        "html {scroll-behavior: smooth;}"
+        "html {scroll-behavior: smooth !important;}"
       ],
       "settings": {
         "row_reverse": true,
