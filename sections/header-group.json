@@ -104,8 +104,8 @@
         "checkout_title": "Checkout",
         "cart_inforation": "<p>Free shipping on orders over <strong>$99<\/strong><\/p>",
         "mobile_search_field_enable": true,
-        "user_menu_title": "My Account",
-        "wishlit_title": "Wishlist",
+        "user_menu_title": "",
+        "wishlit_title": "",
         "wishlist_page_handle": "",
         "shopping_cart_title": "Shopping Cart",
         "mobile_social_midea_enable": true
