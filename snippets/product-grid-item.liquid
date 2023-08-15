@@ -56,6 +56,21 @@
       {%- endif -%}
       <span>{{ product.variants.first.price | money }}</span> 
     </div>
+    <div style="width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;">
+      <button class="product-grid-tile-cta" style="
+    background: #ff9900;
+    background: linear-gradient(180deg, #ffac2f, #ff9900);
+    color: #232528;
+    font-weight: 400;
+    border: .5px solid #232528;
+    padding: 10px;">
+        View Product
+      </button>
+    </div>
 
     {%- if product.variants.size > 1 and settings.grid_color_swatch_enable -%}
     {%- render 'grid-color-swatch', product: product, variant: variant -%}
@@ -90,20 +105,5 @@
     </div>
     {%- endif -%}
     {%- endif -%}
-    <div style="width: 100%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;">
-      <button class="product-grid-tile-cta" style="
-    background: #ff9900;
-    background: linear-gradient(180deg, #ffac2f, #ff9900);
-    color: #232528;
-    font-weight: 400;
-    border: .5px solid #232528;
-    padding: 10px;">
-        View Product
-      </button>
-    </div>
   </div>
 </div>
