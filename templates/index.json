@@ -28,7 +28,7 @@
         "title": "Title <span>hi<\/span>",
         "main_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore<\/p>",
         "show_button": true,
-        "button_title": "View More",
+        "button_title": "Shop Now",
         "button_url": "#products",
         "section_color_enable": false,
         "button_text_color": "#ffffff",
