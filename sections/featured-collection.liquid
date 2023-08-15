@@ -4,7 +4,7 @@
 <div {% if settings.animation_enable %}data-aos="fade-up"{% endif %} class="{% if section.settings.product_row == 2 %}featured-collection-slider{% endif %} ltn__product-slider-area ltn__product-gutter {% if section.settings.large_width_enable %}plr--9{% endif %}" id="section-{{ section.id }}" data-section="featuredCollection">
   <div class="{% if section.settings.large_width_enable %}container-fluid{% else %}container{% endif %}">
     {%- if section.settings.section_title != '' or section.settings.section_sub_title != '' -%}
-    <div class="row">
+    <div class="row" id="products">
       <div class="col-lg-12">
         {% render 'section-heading' %}
       </div>
