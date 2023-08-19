@@ -36,9 +36,6 @@ endif
   .ltn__shop-details-small-img.slick-arrow-2 {
    margin: 0 !important;
   }
-  .pp-single-small-img {
-    height: 50px;
-  }
 </style>
 <div class="ltn__shop-details-area pb-80" data-section="productTemplate" id="section-{{ section.id }}">
   <div class="container">
@@ -64,10 +61,10 @@ endif
                   <div class="single-large-img">
                     {%- assign featured_image = current_variant.featured_image | default: product.featured_image -%}              
                     {% comment %} "product_variant_image" this Class is needed for Ajax popup cart {% endcomment %}
-                    <!-- <img id="ProductPhotoImg" class="{% if section.settings.product_zoom_enable %}product-zoom{% endif %} product_variant_image" 
+                    <img id="ProductPhotoImg" class="{% if section.settings.product_zoom_enable %}product-zoom{% endif %} product_variant_image" 
                          data-image-id="{{ image.id }}" alt="{{ featured_image.alt | escape }}" 
                          data-zoom-image="{{ featured_image | img_url: '1024x1024' }}" 
-                         src="{{ featured_image | img_url: '1024x1024' }}"> -->
+                         src="{{ featured_image | img_url: '1024x1024' }}" width="100%">
                   </div>
                 </div>
                 {%- if product.images.size > 1 -%}
@@ -76,7 +73,7 @@ endif
                   <div class="single-small-img">
                     <a class="product-single__thumbnail {% if forloop.first and section.settings.product_zoom_enable %}active{% endif %}" href="{{ image.src | img_url: '1024x1024' }}" 
                        data-image="{{ image.src | img_url: '1024x1024' }}" data-zoom-image="{{ image.src | img_url: '1024x1024' }}" data-image-id="{{ image.id }}">
-                      <img src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}">
+                      <img src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}" width="100%">
                     </a>
                   </div>
                   {%- endfor -%}
