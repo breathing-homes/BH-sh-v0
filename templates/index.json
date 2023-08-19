@@ -18,6 +18,7 @@
       "block_order": [
         "template--20463255552309__19ba3178-7577-4a62-9779-b0128f2b3625-section_padding-1"
       ],
+      "disabled": true,
       "custom_css": [
         "html {scroll-behavior: smooth !important;}"
       ],
@@ -32,6 +33,39 @@
         "button_url": "#products",
         "section_color_enable": false,
         "button_text_color": "#ffffff",
+        "button_bg_color": "#e53e29",
+        "button_text_hover_color": "#071c1f",
+        "button_bg_hover_color": "#071c1f"
+      }
+    },
+    "3573d587-6be7-469a-92da-d8f065f59e8c": {
+      "type": "landing-page-top-banner",
+      "blocks": {
+        "template--20463255552309__3573d587-6be7-469a-92da-d8f065f59e8c-section_padding-1": {
+          "type": "section_padding",
+          "settings": {
+            "section_padding_top": 0,
+            "section_padding_bottom": 95,
+            "section_padding_top_md": 0,
+            "section_padding_bottom_md": 70,
+            "section_padding_top_xs": 0,
+            "section_padding_bottom_xs": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--20463255552309__3573d587-6be7-469a-92da-d8f065f59e8c-section_padding-1"
+      ],
+      "settings": {
+        "row_reverse": true,
+        "sub_title": "\/\/ Sub Title",
+        "title": "Title <span>.<\/span>",
+        "main_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore<\/p>",
+        "show_button": true,
+        "button_title": "View More",
+        "button_url": "",
+        "section_color_enable": false,
+        "button_text_color": "#fff",
         "button_bg_color": "#e53e29",
         "button_text_hover_color": "#071c1f",
         "button_bg_hover_color": "#071c1f"
@@ -1105,6 +1139,7 @@
   },
   "order": [
     "19ba3178-7577-4a62-9779-b0128f2b3625",
+    "3573d587-6be7-469a-92da-d8f065f59e8c",
     "1650114942c00ad291",
     "901c21f5-f966-4ab2-a85a-e1a3945e86d1",
     "bfc60b0c-98bd-4871-b885-a6cbf39f9f10",
