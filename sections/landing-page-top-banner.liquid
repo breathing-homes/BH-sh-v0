@@ -215,8 +215,8 @@
 	],
 	"blocks":[
 	   {
-          "type": "section_padding",
-          "name": "Section Padding",
+          "type": "section_margin",
+          "name": "Section Margin",
 		  "limit": 1,
           "settings": [
             {
@@ -225,23 +225,23 @@
 			},
 			{
 			  "type": "range",
-			  "id": "section_padding_top",
+			  "id": "section_margin_top",
 			  "min": 0,
 			  "max": 150,
 			  "step": 5,
-			  "label": "Padding Top",
+			  "label": "Margin Top",
 			  "unit": "px",
 			  "default": 0
 			},
 			{
 			  "type": "range",
-			  "id": "section_padding_bottom",
+			  "id": "section_margin_bottom",
 			  "min": 0,
 			  "max": 150,
 			  "step": 5,
-			  "label": "Padding Bottom",
+			  "label": "Margin Bottom",
 			  "unit": "px",
-			  "default": 95
+			  "default": 0
 			},
 			{
 			  "type": "header",
@@ -249,23 +249,23 @@
 			},
 			{
 			  "type": "range",
-			  "id": "section_padding_top_md",
+			  "id": "section_margin_top_md",
 			  "min": 0,
 			  "max": 150,
 			  "step": 5,
-			  "label": "Padding Top",
+			  "label": "Margin Top",
 			  "unit": "px",
 			  "default": 0
 			},
 			{
 			  "type": "range",
-			  "id": "section_padding_bottom_md",
+			  "id": "section_margin_bottom_md",
 			  "min": 0,
 			  "max": 150,
 			  "step": 5,
-			  "label": "Padding Bottom",
+			  "label": "Margin Bottom",
 			  "unit": "px",
-			  "default": 70
+			  "default": 0
 			},
 			{
 			  "type": "header",
@@ -273,23 +273,41 @@
 			},
 			{
 			  "type": "range",
-			  "id": "section_padding_top_xs",
+			  "id": "section_margin_top_xs",
 			  "min": 0,
 			  "max": 150,
 			  "step": 5,
-			  "label": "Padding Top",
+			  "label": "Margin Top",
 			  "unit": "px",
 			  "default": 0
 			},
 			{
 			  "type": "range",
-			  "id": "section_padding_bottom_xs",
+			  "id": "section_margin_bottom_xs",
 			  "min": 0,
 			  "max": 150,
 			  "step": 5,
-			  "label": "Padding Bottom",
+			  "label": "Margin Bottom",
 			  "unit": "px",
-			  "default": 50
+			  "default": 0
+			}
+          ]
+       },
+	   {
+          "type": "section_background",
+          "name": "Section Background",
+		  "limit": 1,
+          "settings": [
+            {
+			  "type": "image_picker",
+			  "id": "section_bg_image",
+			  "label": "BG Image"
+			},
+			{
+			  "type": "color",
+			  "id": "section_bg_color",
+			  "label": "BG Color",
+			  "default": "#ffffff"
 			}
           ]
        }
@@ -299,9 +317,6 @@
 		  "name": "Landing top banner",
 		  "category": "5. about",
 		  "blocks":[
-				{
-					"type": "section_padding"
-				}
 			]
 		}
 	]
