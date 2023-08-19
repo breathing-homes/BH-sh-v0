@@ -58,6 +58,7 @@
       ],
       "settings": {
         "row_reverse": true,
+        "about_image": "shopify:\/\/shop_images\/Kyari_Web_1.webp",
         "sub_title": "\/\/ Sub Title",
         "title": "Title <span>.<\/span>",
         "main_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore<\/p>",
@@ -65,7 +66,7 @@
         "button_title": "View More",
         "button_url": "",
         "section_color_enable": false,
-        "button_text_color": "#fff",
+        "button_text_color": "#ffffff",
         "button_bg_color": "#e53e29",
         "button_text_hover_color": "#071c1f",
         "button_bg_hover_color": "#071c1f"
