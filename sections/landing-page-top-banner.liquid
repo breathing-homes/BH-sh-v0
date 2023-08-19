@@ -37,10 +37,10 @@
     
   }
   .landing-banner-benefits{
-    display: flex;
-    align-items: center;
   }
   .lb-benefits-container{
+    display: flex;
+    align-items: center;
   }
 </style>
 
@@ -52,7 +52,7 @@
           <h1>{{ section.settings.title }}</h1>
           {%- endif -%}
           <div class="landing-banner-benefits">
-            <!-- <span class="lb-benefits-container"> -->
+            <span class="lb-benefits-container">
               <h5 style="margin-right: 20px;">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="#FFA500" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
                 Benefit 1
@@ -65,7 +65,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="#FFA500"  viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
                 Benefit 3
               </h5>
-            <!-- </span> -->
+            </span>
           </div>
           {%- if section.settings.sub_title != '' -%}
           <h3>{{ section.settings.sub_title }}</h3>
