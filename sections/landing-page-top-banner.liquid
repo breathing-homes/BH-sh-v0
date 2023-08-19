@@ -91,8 +91,10 @@
           {%- if section.settings.show_button -%}
           <div class="btn-wrapper lb-cta-btn-wrapper">
             <a href="{{ section.settings.button_url }}" class="btn theme-btn-1 btn-effect-1"  style="width: 250px">
-              {{ section.settings.button_title }}
-              <span class="BH_ASSURED_LOGO">
+              <span class="lb-cta-btn-text">
+                {{ section.settings.button_title }}
+              </span>
+              <span class="BH_ASSURED_LOGO lb-cta-btn-img">
                 <img src="https://cdn.shopify.com/s/files/1/0806/7632/3637/files/BH_assured_logo.png" alt="BH_ASSURED" width="100"  />
               </span>
             </a>
