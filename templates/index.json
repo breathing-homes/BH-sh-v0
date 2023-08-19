@@ -757,6 +757,7 @@
         "template--20463255552309__51372e3d-dcb0-4cd6-a73e-18a96f904a8e-testimonial-1": {
           "type": "testimonial",
           "settings": {
+            "testimonial_image": "shopify:\/\/shop_images\/close-up-of-a-green-spikey-plant-in-a-white-pot.jpg",
             "testionial_author": "Ethan James",
             "testionial_author_designation": "Admin",
             "testionial_content": "<p>Lorem ipsum ctetur elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
@@ -765,6 +766,7 @@
         "template--20463255552309__51372e3d-dcb0-4cd6-a73e-18a96f904a8e-testimonial-2": {
           "type": "testimonial",
           "settings": {
+            "testimonial_image": "shopify:\/\/shop_images\/ZZred.webp",
             "testionial_author": "Ethan James",
             "testionial_author_designation": "Admin",
             "testionial_content": "<p>Lorem ipsum ctetur elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
