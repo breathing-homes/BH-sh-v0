@@ -301,12 +301,6 @@ endif
                 {%- when 'complementary' -%}
                 {%- render 'product-complementary', block: block -%}
                 {%- when 'share_and_payment' -%}
-                {%- if block.settings.social_share_enable -%}
-                <div class="ltn__social-media" {{ block.shopify_attributes }}>
-                  {%- render 'social-share', share_title: product.title, share_permalink: product.url, share_image: product, block: block -%}
-                </div>
-                <hr>
-                {%- endif -%}
                 {%- if block.settings.payment_option_enable -%}
                 <div class="ltn__safe-checkout">
                   {%- if block.settings.payment_information != '' -%}
@@ -317,6 +311,12 @@ endif
                   {%- endif -%}
                   {%- render 'payment-icon', block: block -%}
                 </div>
+                {%- endif -%}
+                {%- if block.settings.social_share_enable -%}
+                <div class="ltn__social-media" {{ block.shopify_attributes }}>
+                  {%- render 'social-share', share_title: product.title, share_permalink: product.url, share_image: product, block: block -%}
+                </div>
+                <hr>
                 {%- endif -%}
                 {%- when 'text' -%}
                 <p class="product-text" {{ block.shopify_attributes }}>
