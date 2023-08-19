@@ -166,11 +166,11 @@
         "e45d70e3-671d-4741-888b-82965edd85e7": {
           "type": "section_margin",
           "settings": {
-            "section_margin_top": 0,
+            "section_margin_top": 20,
             "section_margin_bottom": 0,
-            "section_margin_top_md": 0,
+            "section_margin_top_md": 20,
             "section_margin_bottom_md": 0,
-            "section_margin_top_xs": 0,
+            "section_margin_top_xs": 20,
             "section_margin_bottom_xs": 0
           }
         },
@@ -253,7 +253,7 @@
 
       ],
       "settings": {
-        "service_style_handle": "style_1",
+        "service_style_handle": "style_2",
         "large_width_enable": true,
         "margin_top_minus": false,
         "section_color_enable": true,
