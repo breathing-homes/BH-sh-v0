@@ -11,6 +11,9 @@
 {%- assign func = "Shopify.addItem(" | append: variant.id | append: ", 1)" -%}
 {%- endif -%}
 <style>
+  .product-info{
+    padding: 0;
+  }
 </style>
 <div class="ltn__product-item ltn__product-item-3 text-center product-wrapper {{ variant.id }}">
   <div class="product-img">
@@ -46,7 +49,11 @@
   </div>
   <div class="product-info">
     
-    <h2 class="product-title popup_cart_title{% unless settings.title_wrap_enalbe %} product-full-title{% endunless %}"><a href="{{ product.url | within: collection }}">{{ product.title }}</a></h2>
+    <h2 class="product-title popup_cart_title{% unless settings.title_wrap_enalbe %} product-full-title{% endunless %}">
+      <a href="{{ product.url | within: collection }}">
+        {{ product.title }}
+      </a>
+    </h2>
     {%- if settings.product_review_enable -%}
     <div class="product-ratting">
       <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
