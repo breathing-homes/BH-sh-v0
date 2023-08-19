@@ -18,38 +18,6 @@
 <div {% if settings.animation_enable %}data-aos="fade-up"{% endif %} class="ltn__about-us-area" id="section-{{ section.id }}" data-section="aboutWithImage2">
   <div class="container">
     <div class="row {% if section.settings.row_reverse %}flex-row-reverse{% endif %}">
-      <div class="col-lg-6 align-self-center">        
-        <div class="about-us-img-wrap about-img-right">
-          {%- if section.settings.about_image -%}
-          {%- assign image = section.settings.about_image -%}
-          <span class="image-position-wrapper" style="padding-bottom: {{ 1 | divided_by: image.aspect_ratio | times: 100 }}%;">
-            <img srcset="{% if image.width >= 270 %}{{ image | img_url: '270x' }} 270w,{% endif %}
-                         {% if image.width >= 300 %}{{ image | img_url: '300x' }} 300w,{% endif %}
-                         {% if image.width >= 328 %}{{ image | img_url: '328x' }} 328w,{% endif %}
-                         {% if image.width >= 370 %}{{ image | img_url: '370x' }} 370w,{% endif %}
-                         {% if image.width >= 420 %}{{ image | img_url: '420x' }} 420w,{% endif %}
-                         {% if image.width >= 540 %}{{ image | img_url: '540x' }} 540w,{% endif %}
-                         {% if image.width >= 570 %}{{ image | img_url: '570x' }} 570w,{% endif %}
-                         {% if image.width >= 670 %}{{ image | img_url: '670x' }} 670w,{% endif %}
-                         {% if image.width >= 770 %}{{ image | img_url: '770x' }} 1100w,{% endif %}
-                         {% if image.width >= 900 %}{{ image | img_url: '900x' }} 900w,{% endif %}
-                         {% if image.width >= 970 %}{{ image | img_url: '970x' }} 970w,{% endif %}
-                         {% if image.width >= 1100 %}{{ image | img_url: '1100x' }} 1100w,{% endif %}
-                         {% if image.width >= 1200 %}{{ image | img_url: '1200x' }} 1200w{% endif %}"
-                 loading="lazy"
-                 src="{{ image | img_url: '570x' }}"
-                 sizes="100vw"
-                 width="{{ image.width }}"
-                 height="{{ image.height }}"
-                 alt="{{ image.alt | escape }}"
-                 class="image-position-size"
-                 >
-          </span>
-          {%- else -%}
-          <img src="https://via.placeholder.com/540x540" alt="Banner">
-          {%- endif -%}
-        </div>        
-      </div>
       <div class="col-lg-6 align-self-center">
         <div class="about-us-info-wrap">
           {%- if section.settings.title != '' -%}
@@ -98,6 +66,38 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="col-lg-6 align-self-center">        
+        <div class="about-us-img-wrap about-img-right">
+          {%- if section.settings.about_image -%}
+          {%- assign image = section.settings.about_image -%}
+          <span class="image-position-wrapper" style="padding-bottom: {{ 1 | divided_by: image.aspect_ratio | times: 100 }}%;">
+            <img srcset="{% if image.width >= 270 %}{{ image | img_url: '270x' }} 270w,{% endif %}
+                         {% if image.width >= 300 %}{{ image | img_url: '300x' }} 300w,{% endif %}
+                         {% if image.width >= 328 %}{{ image | img_url: '328x' }} 328w,{% endif %}
+                         {% if image.width >= 370 %}{{ image | img_url: '370x' }} 370w,{% endif %}
+                         {% if image.width >= 420 %}{{ image | img_url: '420x' }} 420w,{% endif %}
+                         {% if image.width >= 540 %}{{ image | img_url: '540x' }} 540w,{% endif %}
+                         {% if image.width >= 570 %}{{ image | img_url: '570x' }} 570w,{% endif %}
+                         {% if image.width >= 670 %}{{ image | img_url: '670x' }} 670w,{% endif %}
+                         {% if image.width >= 770 %}{{ image | img_url: '770x' }} 1100w,{% endif %}
+                         {% if image.width >= 900 %}{{ image | img_url: '900x' }} 900w,{% endif %}
+                         {% if image.width >= 970 %}{{ image | img_url: '970x' }} 970w,{% endif %}
+                         {% if image.width >= 1100 %}{{ image | img_url: '1100x' }} 1100w,{% endif %}
+                         {% if image.width >= 1200 %}{{ image | img_url: '1200x' }} 1200w{% endif %}"
+                 loading="lazy"
+                 src="{{ image | img_url: '570x' }}"
+                 sizes="100vw"
+                 width="{{ image.width }}"
+                 height="{{ image.height }}"
+                 alt="{{ image.alt | escape }}"
+                 class="image-position-size"
+                 >
+          </span>
+          {%- else -%}
+          <img src="https://via.placeholder.com/540x540" alt="Banner">
+          {%- endif -%}
+        </div>        
       </div>
     </div>
   </div>
