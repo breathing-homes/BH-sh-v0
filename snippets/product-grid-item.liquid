@@ -10,6 +10,11 @@
 {%- if product.available -%}
 {%- assign func = "Shopify.addItem(" | append: variant.id | append: ", 1)" -%}
 {%- endif -%}
+<style>
+  .product-wrapper{
+    padding:0;
+  }
+</style>
 <div class="ltn__product-item ltn__product-item-3 text-center product-wrapper {{ variant.id }}">
   <div class="product-img">
     {%- assign image = product.featured_image.src -%}
