@@ -188,7 +188,7 @@
             "service_title": "Free Shipping",
             "service_content": "<p>Free shipping on orders over <strong>$99.<\/strong><\/p>",
             "service_column": 3,
-            "service_column_md": 6,
+            "service_column_md": 3,
             "service_column_sm": 12
           }
         },
@@ -200,7 +200,7 @@
             "service_title": "Money Back",
             "service_content": "<p>15 days money back guarantee.<\/p>",
             "service_column": 3,
-            "service_column_md": 6,
+            "service_column_md": 3,
             "service_column_sm": 12
           }
         },
@@ -212,7 +212,7 @@
             "service_title": "Secure Checkout",
             "service_content": "<p>We ensure 100% Payment Secure.<\/p>",
             "service_column": 3,
-            "service_column_md": 6,
+            "service_column_md": 3,
             "service_column_sm": 12
           }
         },
@@ -224,7 +224,7 @@
             "service_title": "Secure Checkout",
             "service_content": "<p>We ensure 100% Payment Secure.<\/p>",
             "service_column": 3,
-            "service_column_md": 6,
+            "service_column_md": 3,
             "service_column_sm": 12
           }
         },
