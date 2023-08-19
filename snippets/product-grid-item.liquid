@@ -44,12 +44,12 @@
   </div>
   <div class="product-info">
     
+    <h2 class="product-title popup_cart_title{% unless settings.title_wrap_enalbe %} product-full-title{% endunless %}"><a href="{{ product.url | within: collection }}">{{ product.title }}</a></h2>
     {%- if settings.product_review_enable -%}
     <div class="product-ratting">
       <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
     </div>
     {%- endif -%}
-    <h2 class="product-title popup_cart_title{% unless settings.title_wrap_enalbe %} product-full-title{% endunless %}"><a href="{{ product.url | within: collection }}">{{ product.title }}</a></h2>
     <div class="product-price">
       {%- if product.variants.first.compare_at_price > product.variants.first.price -%}
       <del>{{ product.variants.first.compare_at_price | money }}</del>
@@ -67,9 +67,8 @@
         onclick="location.href='{{ product.url | within: collection }}'"
         style="
           width: 100%;
-          background: #ff9900;
-          background: linear-gradient(180deg, #ffac2f, #ff9900);
-          color: #232528;
+          background: rgba(0,56,101,1);
+          color: #fff;
           font-weight: 400;
           border: .5px solid #232528;
           padding: 10px;">
