@@ -44,8 +44,8 @@
     margin: 0 auto;
     display: flex;
   }
-  .lb-cta-btn {
-    
+  .lb-cta-btn-wrapper {
+    margin-top: 10px;
   }
 </style>
 
@@ -89,8 +89,8 @@
             </div>
           </div>
           {%- if section.settings.show_button -%}
-          <div class="btn-wrapper lb-cta-btn">
-            <a href="{{ section.settings.button_url }}" class="btn theme-btn-1 btn-effect-1"  style="width: 250px">
+          <div class="btn-wrapper lb-cta-btn-wrapper">
+            <a href="{{ section.settings.button_url }}" class="btn theme-btn-1 "  style="width: 250px">
               {{ section.settings.button_title }}
               <span class="BH_ASSURED_LOGO">
                 <img src="https://cdn.shopify.com/s/files/1/0806/7632/3637/files/BH_assured_logo.png" alt="BH_ASSURED" width="100"  />
