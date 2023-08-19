@@ -53,7 +53,7 @@ endif
             </div>
             {%- else -%}
             <div class="col-lg-6">
-              <div class="ltn__shop-details-img-gallery">
+              <div class="ltn__shop-details-img-gallery pp-img-gallery">
                 <div class="ltn__shop-details-large-img" id="ProductPhoto">
                   <div class="single-large-img">
                     {%- assign featured_image = current_variant.featured_image | default: product.featured_image -%}              
@@ -70,7 +70,7 @@ endif
                   <div class="single-small-img">
                     <a class="product-single__thumbnail {% if forloop.first and section.settings.product_zoom_enable %}active{% endif %}" href="{{ image.src | img_url: '1024x1024' }}" 
                        data-image="{{ image.src | img_url: '1024x1024' }}" data-zoom-image="{{ image.src | img_url: '1024x1024' }}" data-image-id="{{ image.id }}">
-                      <img src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}">
+                      <img src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}" width="100">
                     </a>
                   </div>
                   {%- endfor -%}
