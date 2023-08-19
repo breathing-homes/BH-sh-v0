@@ -55,7 +55,6 @@
       {%- else -%}
       {% for product in featured_product.products limit: featured_product_limit %}
       <div class="col-lg-12">
-        {%- render 'product-grid-item', product: product, collection: featured_product -%}
       </div>
       {% endfor %}
       {%- endif -%}
