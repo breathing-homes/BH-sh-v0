@@ -65,7 +65,7 @@ endif
         <div class="ltn__testimonial-item ltn__testimonial-item-4">
           {%- if block.settings.testimonial_image -%}
           {%- assign image = block.settings.testimonial_image -%}
-          <div class="ltn__testimoni-img" style="margin: 0;">
+          <div class="ltn__testimoni-img" style="margin: 0 !important;">
             <span>
             <img srcset="{% if image.width >= 160 %}{{ image | img_url: '160x' }} 160w,{% endif %}
                          {% if image.width >= 200 %}{{ image | img_url: '200x' }} 200w,{% endif %}
