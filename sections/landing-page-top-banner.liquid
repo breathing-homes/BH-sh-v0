@@ -50,11 +50,12 @@
   justify-content: center;
   align-items: center;
   }
+  .lb-cta-btn-wrapper .btn {
+    background: red;
+  }
   .lb-cta-btn-text {
     font-size: 18px;
     margin-right: 10px;
-  }
-  .lb-cta-btn-img {
   }
 </style>
 
@@ -99,7 +100,7 @@
           </div>
           {%- if section.settings.show_button -%}
           <div class="btn-wrapper lb-cta-btn-wrapper">
-            <a href="{{ section.settings.button_url }}" class="btn theme-btn-1 btn-effect-1"  style="width: 250px">
+            <a href="{{ section.settings.button_url }}" class="btn"  style="width: 250px">
               <span class="lb-cta-btn-text">
                 {{ section.settings.button_title }}
               </span>
