@@ -23,6 +23,9 @@
   .landing-banner-info-wrap{
     padding:20px;
   }
+  .landing-banner-img-wrap {
+    
+  }
 </style>
 
 <div {% if settings.animation_enable %}data-aos="fade-up"{% endif %} class="ltn__about-us-area" id="section-{{ section.id }}" data-section="Landing_top_banner">
@@ -77,10 +80,10 @@
         </div>
       </div>
       <div class="col-lg-6 align-self-center">        
-        <div class="about-us-img-wrap ">
+        <div class="about-us-img-wrap landing-banner-img-wrap">
           {%- if section.settings.about_image -%}
           {%- assign image = section.settings.about_image -%}
-          <span class="image-position-wrapper" style="padding-bottom: {{ 1 | divided_by: image.aspect_ratio | times: 100 }}%;">
+          <span class="image-position-wrapper">
             <img srcset="{% if image.width >= 270 %}{{ image | img_url: '270x' }} 270w,{% endif %}
                          {% if image.width >= 300 %}{{ image | img_url: '300x' }} 300w,{% endif %}
                          {% if image.width >= 328 %}{{ image | img_url: '328x' }} 328w,{% endif %}
