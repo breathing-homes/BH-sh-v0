@@ -33,12 +33,6 @@ endif
   .ltn__shop-details-area .pp-img-gallery {
     margin: 0;
   }
-  .ProductThumbs {
-    margin: 0;
-  }
-  .ltn__shop-details-small-img .slick-arrow-2 {
-    margin: 0;
-  }
 </style>
 <div class="ltn__shop-details-area pb-80" data-section="productTemplate" id="section-{{ section.id }}">
   <div class="container">
@@ -71,7 +65,7 @@ endif
                   </div>
                 </div>
                 {%- if product.images.size > 1 -%}
-                <div class="ltn__shop-details-small-img slick-arrow-2 pp-productThumbs" id="ProductThumbs">
+                <div class="ltn__shop-details-small-img slick-arrow-2 pp-productThumbs" id="ProductThumbs" style=" margin: 0;">
                   {%- for image in product.images -%}
                   <div class="single-small-img">
                     <a class="product-single__thumbnail {% if forloop.first and section.settings.product_zoom_enable %}active{% endif %}" href="{{ image.src | img_url: '1024x1024' }}" 
