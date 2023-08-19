@@ -76,7 +76,7 @@ endif
                   <div class="single-small-img">
                     <a class="product-single__thumbnail {% if forloop.first and section.settings.product_zoom_enable %}active{% endif %}" href="{{ image.src | img_url: '1024x1024' }}" 
                        data-image="{{ image.src | img_url: '1024x1024' }}" data-zoom-image="{{ image.src | img_url: '1024x1024' }}" data-image-id="{{ image.id }}">
-                      <!-- <img src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}" class="pp-single-small-img"> -->
+                      <img src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}">
                     </a>
                   </div>
                   {%- endfor -%}
