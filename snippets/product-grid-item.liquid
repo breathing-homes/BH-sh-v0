@@ -60,11 +60,11 @@
       </a>
     </h2>
     {%- if settings.product_review_enable -%}
-    <div class="product-ratting" style="margin-top: 5px;">
+    <div class="product-ratting" style="margin-top: 3px;">
       <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
     </div>
     {%- endif -%}
-    <div class="product-price" style="margin-top: 5px;">
+    <div class="product-price" style="margin-top: 3px;">
       {%- if product.variants.first.compare_at_price > product.variants.first.price -%}
       <del>{{ product.variants.first.compare_at_price | money }}</del>
       {%- endif -%}
@@ -72,6 +72,7 @@
     </div>
     <div style="width: 100%;
         display: flex;
+      margin-top: 3px;
         justify-content: center;
         align-items: center;">
       <button class="product-grid-tile-cta" 
