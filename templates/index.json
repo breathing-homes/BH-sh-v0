@@ -554,7 +554,7 @@
         "template--20463255552309__a49c21e1-5ef7-44b6-a700-10015d236a4f-section_padding-1"
       ],
       "settings": {
-        "large_width_enable": false,
+        "large_width_enable": true,
         "section_title": "Look at these plants...",
         "section_sub_title": "Sub Title",
         "heading_style_handle": "style_two",
