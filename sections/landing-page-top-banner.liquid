@@ -44,6 +44,9 @@
     margin: 0 auto;
     display: flex;
   }
+  .lb-cta-btn {
+    
+  }
 </style>
 
 <div {% if settings.animation_enable %}data-aos="fade-up"{% endif %} class="ltn__about-us-area" id="section-{{ section.id }}" data-section="Landing_top_banner">
@@ -86,7 +89,7 @@
             </div>
           </div>
           {%- if section.settings.show_button -%}
-          <div class="btn-wrapper" style="margin-top: 10px;">
+          <div class="btn-wrapper lb-cta-btn">
             <a href="{{ section.settings.button_url }}" class="btn theme-btn-1 btn-effect-1"  style="width: 250px">
               {{ section.settings.button_title }}
               <span class="BH_ASSURED_LOGO">
