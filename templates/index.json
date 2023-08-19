@@ -556,7 +556,7 @@
       "settings": {
         "large_width_enable": true,
         "section_title": "Look at these plants...",
-        "section_sub_title": "Sub Title",
+        "section_sub_title": "",
         "heading_style_handle": "style_two",
         "heading_left_position": false,
         "featured_product_handle": "all-products-collection",
