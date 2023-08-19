@@ -29,6 +29,11 @@ endif
 {%- else -%}
 {%- assign current_variant = product.selected_or_first_available_variant -%}
 {%- endif -%}
+<style>
+  .ltn__shop-details-area .pp-img-gallery {
+    margin: 0;
+  }
+</style>
 <div class="ltn__shop-details-area pb-80" data-section="productTemplate" id="section-{{ section.id }}">
   <div class="container">
     <div class="row">
@@ -37,7 +42,7 @@ endif
           <div class="row{% if section.settings.content_handle == 'content_in_left' %} flex-row-reverse{% endif %}">
             {%- if section.settings.product_media_enable -%}
             <div class="col-lg-6">
-              <div class="ltn__shop-details-img-gallery">
+              <div class="ltn__shop-details-img-gallery pp-img-gallery">
                 <div class="ltn__shop-details-large-img" {% if theme_rtl %}dir="rtl"{% endif %}>
                   {%- for media in product.media -%}
                   {%- render 'media', media: media -%}
