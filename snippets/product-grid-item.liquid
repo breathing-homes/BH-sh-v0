@@ -59,7 +59,7 @@
       <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
     </div>
     {%- endif -%}
-    <div class="product-price" style="margin-top: 2px;">
+    <div class="product-price" style="margin-top: 0;">
       {%- if product.variants.first.compare_at_price > product.variants.first.price -%}
       <del>{{ product.variants.first.compare_at_price | money }}</del>
       {%- endif -%}
