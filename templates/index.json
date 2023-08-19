@@ -40,28 +40,12 @@
     },
     "3573d587-6be7-469a-92da-d8f065f59e8c": {
       "type": "landing-page-top-banner",
-      "blocks": {
-        "template--20463255552309__3573d587-6be7-469a-92da-d8f065f59e8c-section_padding-1": {
-          "type": "section_padding",
-          "settings": {
-            "section_padding_top": 0,
-            "section_padding_bottom": 95,
-            "section_padding_top_md": 0,
-            "section_padding_bottom_md": 70,
-            "section_padding_top_xs": 0,
-            "section_padding_bottom_xs": 50
-          }
-        }
-      },
-      "block_order": [
-        "template--20463255552309__3573d587-6be7-469a-92da-d8f065f59e8c-section_padding-1"
-      ],
       "settings": {
         "row_reverse": true,
         "about_image": "shopify:\/\/shop_images\/Kyari_Web_1.webp",
-        "sub_title": "\/\/ Sub Title",
-        "title": "Title <span>.<\/span>",
-        "main_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore<\/p>",
+        "sub_title": "Now, doesn’t that sound good?",
+        "title": "SATISFY YOUR CRAVINGS WITH A CRUNCHY SNACK",
+        "main_content": "",
         "show_button": true,
         "button_title": "View More",
         "button_url": "",
