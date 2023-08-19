@@ -64,7 +64,7 @@ endif
                     <img id="ProductPhotoImg" class="{% if section.settings.product_zoom_enable %}product-zoom{% endif %} product_variant_image" 
                          data-image-id="{{ image.id }}" alt="{{ featured_image.alt | escape }}" 
                          data-zoom-image="{{ featured_image | img_url: '1024x1024' }}" 
-                         src="{{ featured_image | img_url: '1024x1024' }}" width="100%">
+                         src="{{ featured_image | img_url: '1024x1024' }}">
                   </div>
                 </div>
                 {%- if product.images.size > 1 -%}
@@ -73,7 +73,7 @@ endif
                   <div class="single-small-img">
                     <a class="product-single__thumbnail {% if forloop.first and section.settings.product_zoom_enable %}active{% endif %}" href="{{ image.src | img_url: '1024x1024' }}" 
                        data-image="{{ image.src | img_url: '1024x1024' }}" data-zoom-image="{{ image.src | img_url: '1024x1024' }}" data-image-id="{{ image.id }}">
-                      <img src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}" width="100%">
+                      <img src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}">
                     </a>
                   </div>
                   {%- endfor -%}
