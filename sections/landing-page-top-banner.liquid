@@ -58,10 +58,6 @@
     font-size: 18px;
     margin-right: 10px;
   }
-  .lb-payment-img-container{
-    display:flex;
-    justify-content: space-around;
-  }
 </style>
 
 <div {% if settings.animation_enable %}data-aos="fade-up"{% endif %} class="ltn__about-us-area" id="section-{{ section.id }}" data-section="Landing_top_banner">
@@ -117,11 +113,11 @@
           {%- endif -%}
           <div style="margin-top: 16px;">
             <h5 style="margin-bottom: 0; color: #939C9C">Secured Payments</h5>
-            <div class="lb-payment-img-container">
-                <img src="https://cdn.shopify.com/s/files/1/0806/7632/3637/files/upi-ar21.png?v=1691608710" alt="UPI" width="60" height="30"  />
-                <img src="https://cdn.shopify.com/s/files/1/0806/7632/3637/files/GPAY.png?v=1692097072" alt="Gpay" width="60"  height="30"  />
-                <img src="https://cdn.shopify.com/s/files/1/0806/7632/3637/files/paytm.png" alt="Paytm" width="60" height="30" />
-                <img src="https://cdn.shopify.com/s/files/1/0806/7632/3637/files/phonepe.webp?v=1691608710" alt="Phonepe" height="30" />
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0806/7632/3637/files/upi-ar21.png?v=1691608710" alt="UPI" width="60" height="30" style="margin-right: 10px;" />
+                <img src="https://cdn.shopify.com/s/files/1/0806/7632/3637/files/GPAY.png?v=1692097072" alt="Gpay" width="60"  height="30" style="margin-right: 10px;" />
+                <img src="https://cdn.shopify.com/s/files/1/0806/7632/3637/files/paytm.png" alt="Paytm" width="60" height="30" style="margin-right: 10px;" />
+                <img src="https://cdn.shopify.com/s/files/1/0806/7632/3637/files/phonepe.webp?v=1691608710" alt="Phonepe" width="60" height="30" />
             </div>
           </div>
         </div>
