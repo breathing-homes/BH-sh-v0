@@ -760,11 +760,11 @@
           "type": "section_padding",
           "settings": {
             "section_padding_top": 0,
-            "section_padding_bottom": 100,
+            "section_padding_bottom": 35,
             "section_padding_top_md": 0,
-            "section_padding_bottom_md": 80,
+            "section_padding_bottom_md": 30,
             "section_padding_top_xs": 0,
-            "section_padding_bottom_xs": 60
+            "section_padding_bottom_xs": 30
           }
         }
       },
@@ -774,7 +774,7 @@
       "settings": {
         "section_sub_title": "\/\/ Sub Title",
         "section_title": "Section Title",
-        "custom_html_content": "<div><p>HTML content here<\/p><\/div>"
+        "custom_html_content": "<style>\n  .bh-benefits-container{\n    background: #2D674B;\n    color: #F8EDE3;\n    padding: 70px 30px 50px 30px;\n    border-radius: 30px;\n    overflow: hidden;\n    text-align: center;\n    max-width: 600px;\n    margin: 0 auto;\n  }\n  .bh-benefits-title{\n    margin-top: 10px;\n    font-weight: 2000;\n    font-size: 40px;\n  }\n  .bh-benefits-benefit {\n    font-weight: 2000;\n    font-size: 22px;\n    margin: 20px;\n  }\n  .bh-benefits-innercontainer{\n    margin-top: 35px;\n  }\n  .bh-benefits-para {\n    margin-top: 50px;\n    color: #F8EDE3;\n  }\n<\/style>\n\n<div class=\"bh-benefits-container\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0806\/7632\/3637\/files\/BH_ASSURED_LOGO.png?v=1692432336\" alt=\"BH_ASSURED\" width=\"200\" class=\"bh-benefits-bhassured-logo\">\n  <h1 class=\"bh-benefits-title\">No Damage Guarantee<\/h1>\n  <div class=\"bh-benefits-innercontainer\">\n    <h4 class=\"bh-benefits-benefit\">Zero Packaging, Maximum Care<\/h4>\n    <h4 class=\"bh-benefits-benefit\">Hand-Delivered to Perfection<\/h4>\n    <h4 class=\"bh-benefits-benefit\">Return on Delivery (ROD)<\/h4>\n  <\/div>\n  <span>\n    <p class=\"bh-benefits-para\">A promise that your plant's journey from our nursery to your home is as smooth as can be. We're putting the 'care' back in 'delivery' to make sure your plant parenting journey begins on the right note. Welcome to a world of worry-free plant shopping, where BH-Assured is your guarantee of greenery, delivered with love and care.<\/p>\n  <\/span>\n<\/div>"
       }
     },
     "51372e3d-dcb0-4cd6-a73e-18a96f904a8e": {
