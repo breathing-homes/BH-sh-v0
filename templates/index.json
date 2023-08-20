@@ -536,6 +536,30 @@
       "settings": {
       }
     },
+    "cb7ee48a-5f2a-453f-81da-a1ed318455cd": {
+      "type": "custom-html",
+      "blocks": {
+        "template--20463255552309__cb7ee48a-5f2a-453f-81da-a1ed318455cd-section_padding-1": {
+          "type": "section_padding",
+          "settings": {
+            "section_padding_top": 0,
+            "section_padding_bottom": 100,
+            "section_padding_top_md": 0,
+            "section_padding_bottom_md": 80,
+            "section_padding_top_xs": 0,
+            "section_padding_bottom_xs": 60
+          }
+        }
+      },
+      "block_order": [
+        "template--20463255552309__cb7ee48a-5f2a-453f-81da-a1ed318455cd-section_padding-1"
+      ],
+      "settings": {
+        "section_sub_title": "\/\/ Sub Title",
+        "section_title": "Section Title",
+        "custom_html_content": "<style>\n  .how-it-works-container{\n    max-width: 700px;\n    margin: 0 auto;\n  }\n  .how-it-works-title{\n    margin: 0 auto;\n  }\n  .how-it-works-step{\n    margin-top: 20px;\n    display: flex;\n    padding: 20px;\n    margin: 0;\n  }\n  .how-it-works-step-left{\n    margin-right: 20px;\n    margin-top: 20px;\n  }\n  .how-it-works-step-number{\n    background: #1A1AFF;\n    color: #fff;\n    height: 50px;\n    width:50px;\n    text-align: center;\n    border-radius: 100%;\n    font-size: 27px;\n  }\n  .how-it-works-step-title{\n    font-size: 24px;\n  }\n  .how-it-works-step-text{\n    font-size: 20px;\n    margin-top: 0;\n  }\n<\/style>\n\n<div class=\"how-it-works-container\">\n  <h1 class=\"how-it-works-title\">How it works?<\/h1>\n  <div class=\"how-it-works-step\">\n    <div class=\"how-it-works-step-left\">\n      <div class=\"how-it-works-step-number\">1<\/div>\n<!--       <span class=\"how-it-works-step-left\">|<\/span> -->\n    <\/div>\n    <div class=\"how-it-works-step-right\">\n      <h4 class=\"how-it-works-step-title\">Order with Confidence &amp; Trust<\/h4>\n      <p class=\"how-it-works-step-text\">Simply choose your favorite plants and place an order. We're here to make your plant-parenthood dreams come true!<\/p>\n    <\/div>\n  <\/div>\n  \n  <div class=\"how-it-works-step\">\n    <div class=\"how-it-works-step-left\">\n      <div class=\"how-it-works-step-number\">2<\/div>\n<!--       <span class=\"how-it-works-step-left\">|<\/span> -->\n    <\/div>\n    <div class=\"how-it-works-step-right\">\n      <h4 class=\"how-it-works-step-title\">Handpicked Perfection<\/h4>\n      <p class=\"how-it-works-step-text\">Our skilled experts carefully select the freshest plants, ensuring each one meets our high standards for quality and beauty.<\/p>\n    <\/div>\n  <\/div>\n  \n  <div class=\"how-it-works-step\">\n    <div class=\"how-it-works-step-left\">\n      <div class=\"how-it-works-step-number\">3<\/div>\n<!--       <span class=\"how-it-works-step-left\">|<\/span> -->\n    <\/div>\n    <div class=\"how-it-works-step-right\">\n      <h4 class=\"how-it-works-step-title\">Nurturing Repotting<\/h4>\n      <p class=\"how-it-works-step-text\">We lovingly repot your chosen plants into nutrient-rich soil, guaranteeing they thrive and stay vibrant in your care.<\/p>\n    <\/div>\n  <\/div>\n  \n  <div class=\"how-it-works-step\">\n    <div class=\"how-it-works-step-left\">\n      <div class=\"how-it-works-step-number\">4<\/div>\n<!--       <span class=\"how-it-works-step-left\">|<\/span> -->\n    <\/div>\n    <div class=\"how-it-works-step-right\">\n      <h4 class=\"how-it-works-step-title\">Zero-Damage Delivery<\/h4>\n      <p class=\"how-it-works-step-text\">Experience worry-free delivery with our innovative 0% packaging method. Your plants reach you in perfect condition, ready to thrive.<\/p>\n    <\/div>\n  <\/div>\n  \n  <div class=\"how-it-works-step\">\n    <div class=\"how-it-works-step-left\">\n      <div class=\"how-it-works-step-number\">5<\/div>\n<!--       <span class=\"how-it-works-step-left\">|<\/span> -->\n    <\/div>\n    <div class=\"how-it-works-step-right\">\n      <h4 class=\"how-it-works-step-title\">Plant Expert at Your Fingertips<\/h4>\n      <p class=\"how-it-works-step-text\">Have questions or need advice? Connect with our plant experts via WhatsApp anytime. We're here to guide you on your plant journey.<\/p>\n    <\/div>\n  <\/div>\n<\/div>"
+      }
+    },
     "a49c21e1-5ef7-44b6-a700-10015d236a4f": {
       "type": "featured-collection",
       "blocks": {
@@ -1162,6 +1186,7 @@
     "b4b99a28-68e5-43bd-abe4-af5ffe7dc95b",
     "2aebd4c3-fa0d-4299-9f12-48d0321ab3ce",
     "1650114938d1f0331c",
+    "cb7ee48a-5f2a-453f-81da-a1ed318455cd",
     "a49c21e1-5ef7-44b6-a700-10015d236a4f",
     "de321b34-0b0f-45b6-b123-9c20ce130c03",
     "01374135-72fd-4e84-bbec-d5e03e92d614",
