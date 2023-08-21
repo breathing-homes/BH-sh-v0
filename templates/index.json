@@ -250,7 +250,7 @@
         "ecd601ae-cc63-4c39-a143-40ced282da67"
       ],
       "custom_css": [
-        "h4 {transform: translateY(-9px)}"
+        "h4 {transform: translateY(-9px);}"
       ],
       "settings": {
         "service_style_handle": "style_2",
@@ -809,34 +809,34 @@
           "type": "testimonial",
           "settings": {
             "testimonial_image": "shopify:\/\/shop_images\/close-up-of-a-green-spikey-plant-in-a-white-pot.jpg",
-            "testionial_author": "Ethan James",
-            "testionial_author_designation": "Admin",
-            "testionial_content": "<p>Lorem ipsum ctetur elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+            "testionial_author": "Khushboo Kabra",
+            "testionial_author_designation": "",
+            "testionial_content": "<p>Arrived very fresh & healthy without any damage<\/p>"
           }
         },
         "template--20463255552309__51372e3d-dcb0-4cd6-a73e-18a96f904a8e-testimonial-2": {
           "type": "testimonial",
           "settings": {
             "testimonial_image": "shopify:\/\/shop_images\/ZZred.webp",
-            "testionial_author": "Ethan James",
-            "testionial_author_designation": "Admin",
-            "testionial_content": "<p>Lorem ipsum ctetur elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+            "testionial_author": "Chirag Anand",
+            "testionial_author_designation": "",
+            "testionial_content": "<p>Can't believe I got this quality online, loved it!<\/p>"
           }
         },
         "template--20463255552309__51372e3d-dcb0-4cd6-a73e-18a96f904a8e-testimonial-3": {
           "type": "testimonial",
           "settings": {
-            "testionial_author": "Ethan James",
-            "testionial_author_designation": "Admin",
-            "testionial_content": "<p>Lorem ipsum ctetur elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+            "testionial_author": "Aarti Mathur",
+            "testionial_author_designation": "",
+            "testionial_content": "<p>Very beautiful aglaonema plant, not a single leaf got damaged<\/p>"
           }
         },
         "template--20463255552309__51372e3d-dcb0-4cd6-a73e-18a96f904a8e-testimonial-4": {
           "type": "testimonial",
           "settings": {
-            "testionial_author": "Ethan James",
-            "testionial_author_designation": "Admin",
-            "testionial_content": "<p>Lorem ipsum ctetur elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+            "testionial_author": "Neelanshi Mangal",
+            "testionial_author_designation": "",
+            "testionial_content": "<p>Bonsai has grown quite a lot in last 1 year with help of plant expert support<\/p>"
           }
         },
         "template--20463255552309__51372e3d-dcb0-4cd6-a73e-18a96f904a8e-section_padding-1": {
