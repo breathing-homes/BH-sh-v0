@@ -9,7 +9,8 @@ function validateZipCode(zipCode) {
 }
 
 // Function to handle the ZIP code validation
-function handleZipCodeValidation() {
+function handleZipCodeValidation(e) {
+  e.preventDefault();
   const inputElement = document.getElementById("zipcode-input"); // Replace with your input element's ID
   const resultElement = document.getElementById("zipcode-validation-result"); // Replace with the element where you want to display validation result
 
