@@ -261,8 +261,8 @@
       ],
       "settings": {
         "product_tab_enable": true,
-        "tab_active_handle": "info_tab",
-        "product_info_tab_enable": true,
+        "tab_active_handle": "review_tab",
+        "product_info_tab_enable": false,
         "product_info_tab_title": "Description",
         "product_review_tab_enable": true,
         "product_review_tab_title": "Reviews",
