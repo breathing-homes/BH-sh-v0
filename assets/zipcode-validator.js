@@ -12,9 +12,11 @@ function validateZipCode(zipCode) {
 function handleZipCodeValidation(e) {
   e.preventDefault();
   
-  const inputElement = document.getElementById("zipcode-input"); // Replace with your input element's ID
-  const resultElement = document.getElementById("zipcode-validation-result"); // Replace with the element where you want to display validation result
-
+  const inputElement = document.getElementById("zipcode-input");
+  const resultElement = document.getElementById("zipcode-validation-result"); 
+  const addToCartElement = document.getElementById("AddToCart");
+  
+  
   const zipCode = inputElement.value.trim();
   
   if (validateZipCode(zipCode)) {
@@ -26,6 +28,6 @@ function handleZipCodeValidation(e) {
 
 // Attach event listener to trigger validation
 document.addEventListener("DOMContentLoaded", function () {
-  const submitButton = document.getElementById("zipcode-submit-button"); // Replace with your submit button's ID
+  const submitButton = document.getElementById("zipcode-submit-button"); 
   submitButton.addEventListener("click", handleZipCodeValidation);
 });
