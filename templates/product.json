@@ -265,71 +265,105 @@
     "997014f9-c3bf-4236-9099-ecad9c93ef33": {
       "type": "testimonial-3",
       "blocks": {
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-1": {
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-1": {
           "type": "testimonial",
           "settings": {
-            "testionial_author": "Ethan James",
-            "testionial_author_designation": "Admin",
-            "testionial_content": "<p>Lorem ipsum ctetur elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+            "testimonial_image": "shopify:\/\/shop_images\/1.png",
+            "testionial_author": "Khushboo Kabra",
+            "testionial_author_designation": "",
+            "testionial_content": "<p>Arrived very fresh & healthy without any damage<\/p>"
           }
         },
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-2": {
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-2": {
           "type": "testimonial",
           "settings": {
-            "testionial_author": "Ethan James",
-            "testionial_author_designation": "Admin",
-            "testionial_content": "<p>Lorem ipsum ctetur elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+            "testimonial_image": "shopify:\/\/shop_images\/6.png",
+            "testionial_author": "Chirag Anand",
+            "testionial_author_designation": "",
+            "testionial_content": "<p>Can't believe I got this quality online, loved it!<\/p>"
           }
         },
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-3": {
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-3": {
           "type": "testimonial",
           "settings": {
-            "testionial_author": "Ethan James",
-            "testionial_author_designation": "Admin",
-            "testionial_content": "<p>Lorem ipsum ctetur elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+            "testimonial_image": "shopify:\/\/shop_images\/4.png",
+            "testionial_author": "Aarti Mathur",
+            "testionial_author_designation": "",
+            "testionial_content": "<p>Very beautiful aglaonema plant, not a single leaf got damaged<\/p>"
           }
         },
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-4": {
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-4": {
           "type": "testimonial",
           "settings": {
-            "testionial_author": "Ethan James",
-            "testionial_author_designation": "Admin",
-            "testionial_content": "<p>Lorem ipsum ctetur elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua.<\/p>"
+            "testimonial_image": "shopify:\/\/shop_images\/7.png",
+            "testionial_author": "Neelanshi Mangal",
+            "testionial_author_designation": "",
+            "testionial_content": "<p>Bonsai has grown quite a lot in last 1 year with help of plant expert support<\/p>"
           }
         },
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-section_padding-1": {
+        "846adbf2-4d56-430a-a415-29a96f15df29": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_image": "shopify:\/\/shop_images\/2.png",
+            "testionial_author": "Veena Singh",
+            "testionial_author_designation": "",
+            "testionial_content": "<p>I have stopped visiting nurseries now, got very fresh plants<\/p>"
+          }
+        },
+        "3e963bea-d64b-4ad3-bad0-bc2e62a73356": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_image": "shopify:\/\/shop_images\/5_2.png",
+            "testionial_author": "Kanishk Gairola",
+            "testionial_author_designation": "",
+            "testionial_content": "<p>Delivery was perfectly done, no damage to the plants<\/p>"
+          }
+        },
+        "55db8420-07bb-4507-9af5-6d0a0fe797f8": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_image": "shopify:\/\/shop_images\/3.png",
+            "testionial_author": "Aditya Kumar",
+            "testionial_author_designation": "",
+            "testionial_content": "<p>Self watering planter is very helpful for me<\/p>"
+          }
+        },
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-section_padding-1": {
           "type": "section_padding",
           "settings": {
-            "section_padding_top": 115,
-            "section_padding_bottom": 70,
-            "section_padding_top_md": 75,
-            "section_padding_bottom_md": 30,
-            "section_padding_top_xs": 55,
-            "section_padding_bottom_xs": 30
+            "section_padding_top": 40,
+            "section_padding_bottom": 30,
+            "section_padding_top_md": 35,
+            "section_padding_bottom_md": 15,
+            "section_padding_top_xs": 30,
+            "section_padding_bottom_xs": 15
           }
         },
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-section_background-1": {
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-section_background-1": {
           "type": "section_background",
           "settings": {
-            "section_bg_color": "#F2F6F7"
+            "section_bg_color": "#f2f6f7"
           }
         }
       },
       "block_order": [
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-1",
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-2",
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-3",
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-4",
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-section_padding-1",
-        "template--20463256994101__997014f9-c3bf-4236-9099-ecad9c93ef33-section_background-1"
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-1",
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-2",
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-3",
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-testimonial-4",
+        "846adbf2-4d56-430a-a415-29a96f15df29",
+        "3e963bea-d64b-4ad3-bad0-bc2e62a73356",
+        "55db8420-07bb-4507-9af5-6d0a0fe797f8",
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-section_padding-1",
+        "template--20463255552309__997014f9-c3bf-4236-9099-ecad9c93ef33-section_background-1"
       ],
       "settings": {
-        "section_title": "Section Title",
-        "section_sub_title": "\/\/ Sub Title",
+        "section_title": "What they say?",
+        "section_sub_title": "",
         "heading_style_handle": "style_one",
         "heading_left_position": false,
         "column": 3,
-        "column_md": 2,
+        "column_md": 3,
         "column_sm": 1,
         "autoplay_true": false,
         "autoplay_speed": 7000,
