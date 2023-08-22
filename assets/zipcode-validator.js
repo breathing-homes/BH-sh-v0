@@ -38,4 +38,5 @@ document.addEventListener("DOMContentLoaded", function () {
   
   const zipcodeSubmitButton = document.getElementById("zipcode-submit-button"); 
   zipcodeSubmitButton.addEventListener("click", handleZipCodeValidation);
+  handleZipCodeValidation();
 });
