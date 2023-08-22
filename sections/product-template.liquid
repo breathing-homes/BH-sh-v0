@@ -52,6 +52,48 @@ endif
   .lb-bh-assured-img{
     margin-top: 40px;
   }
+  .zipcode-wrapper, #zipcode-validation-result {
+  padding: 2rem 2rem 0px 2rem;
+  display: flex;
+}
+.zipcode-wrapper input,
+#zipcode-validation-result input,
+.zipcode-wrapper #zipcode-submit-button,
+#zipcode-validation-result #zipcode-submit-button {
+  height: 3.5rem;
+}
+.zipcode-wrapper input,
+#zipcode-validation-result input {
+  -webkit-appearance: none;
+  border-style: none;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid #00f;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  color: #00f;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 8px;
+  padding: 0 1.5rem;
+  margin-right: 6px;
+  transition: border-bottom-color 0.2s ease;
+}
+.zipcode-wrapper #zipcode-submit-button,
+#zipcode-validation-result #zipcode-submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00f;
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 2rem;
+  border: 2px solid #00f;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 </style>
 <div class="ltn__shop-details-area pb-80" data-section="productTemplate" id="section-{{ section.id }}">
   <div class="container">
@@ -266,7 +308,7 @@ endif
                   }
                 </style>
                 <!-- delivery Zip code Validator -->
-                <div>
+                <div class="zipcode-wrapper">
                   <input type="text" id="zipcode-input" placeholder="Enter your ZIP code">
                   <button id="zipcode-submit-button">Check Delivery</button>
                   <p id="zipcode-validation-result"></p>
