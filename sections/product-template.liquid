@@ -93,12 +93,12 @@ endif
               <div class="shop-details-info modal-product-info">
                 {%- for block in section.blocks -%}
                 {%- case block.type -%}
+                {%- when 'title' -%}
+                <h1 id="popup_cart_title" {{ block.shopify_attributes }}>{{ product.title }}</h1>
                 {%- when 'review' -%}
                 <div class="product-ratting" {{ block.shopify_attributes }}>
                   <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
                 </div>
-                {%- when 'title' -%}
-                <h1 id="popup_cart_title" {{ block.shopify_attributes }}>{{ product.title }}</h1>
                 {%- when 'price' -%}
                 <div class="product-price" {{ block.shopify_attributes }}>
                   {% if theme_rtl %}
