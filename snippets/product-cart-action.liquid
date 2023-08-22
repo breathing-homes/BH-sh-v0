@@ -43,6 +43,8 @@
       e.preventDefault();
       Shopify.addItemFromFormStart('AddToCartForm', {{ product.id }});
                                    }); 
+
+    handleZipCodeValidation();
   </script>
   {%- endunless -%}
   {%- else -%}
