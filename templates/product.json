@@ -424,71 +424,55 @@
     "f97449dc-f96f-40a9-b3fa-fe9edb9ef6de": {
       "type": "faq-template",
       "blocks": {
-        "b4ddd343-ac20-436c-833f-9c70711e9ea6": {
+        "template--20463255552309__f97449dc-f96f-40a9-b3fa-fe9edb9ef6de-faq-1": {
           "type": "faq",
           "settings": {
-            "accordion_title": "How to buy a product?",
-            "accordion_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. Gravida in fermentum et sollicitudin ac orci phasellus. Facilisis gravida neque convallis a cras semper. Non arcu risus quis varius quam quisque id.<\/p>"
+            "accordion_title": "Can I change my billing address?",
+            "accordion_content": "<p>Mail us at <strong>support@breathinghomes.in<\/strong> or Call us at <strong>+91-8368935965<\/strong> to change your order information. Please note that after your order is shipped you cannot change any details on your order.<\/p>"
           }
         },
-        "5ec84107-b5f9-4527-8b26-b4f17e6734ea": {
+        "template--20463255552309__f97449dc-f96f-40a9-b3fa-fe9edb9ef6de-faq-2": {
           "type": "faq",
           "settings": {
-            "accordion_title": "How can i make refund from your website?",
-            "accordion_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. Gravida in fermentum et sollicitudin ac orci phasellus. Facilisis gravida neque convallis a cras semper. Non arcu risus quis varius quam quisque id.<\/p>"
+            "accordion_title": "What are the Payment Mode Available?",
+            "accordion_content": "<p>We accept Online Payments by Debit Card, Credit Card, Net banking, and Cash on Delivery.<\/p>"
           }
         },
-        "5d4d803b-de02-446c-9ff7-ac28338ad92c": {
+        "template--20463255552309__f97449dc-f96f-40a9-b3fa-fe9edb9ef6de-faq-3": {
           "type": "faq",
           "settings": {
-            "accordion_title": "I am a new user. How should I start?",
-            "accordion_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. Gravida in fermentum et sollicitudin ac orci phasellus. Facilisis gravida neque convallis a cras semper. Non arcu risus quis varius quam quisque id.<\/p>"
+            "accordion_title": "Can I change my order information?",
+            "accordion_content": "<p>Mail us at <strong>support@breathinghomes.in<\/strong> or Call us at <strong>+91-8368935965<\/strong> to change your order information. Please note that after your order is shipped you cannot change any details on your order.<\/p>"
           }
         },
-        "7994fb03-7923-4cca-b5ba-9062b6a3efba": {
-          "type": "faq",
-          "settings": {
-            "accordion_title": "Are my details secured?",
-            "accordion_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. Gravida in fermentum et sollicitudin ac orci phasellus. Facilisis gravida neque convallis a cras semper. Non arcu risus quis varius quam quisque id.<\/p>"
-          }
-        },
-        "c6545515-b3bb-494b-a14b-c80e14b92916": {
-          "type": "faq",
-          "settings": {
-            "accordion_title": "How do I make payment by my credit card?",
-            "accordion_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. Gravida in fermentum et sollicitudin ac orci phasellus. Facilisis gravida neque convallis a cras semper. Non arcu risus quis varius quam quisque id.<\/p>"
-          }
-        },
-        "5b946b4c-c293-4a21-bbac-b537f6f84796": {
+        "template--20463255552309__f97449dc-f96f-40a9-b3fa-fe9edb9ef6de-section_padding-1": {
           "type": "section_padding",
           "settings": {
             "section_padding_top": 0,
-            "section_padding_bottom": 80,
-            "section_padding_top_md": 0,
-            "section_padding_bottom_md": 50,
+            "section_padding_bottom": 30,
+            "section_padding_top_md": 15,
+            "section_padding_bottom_md": 30,
             "section_padding_top_xs": 0,
-            "section_padding_bottom_xs": 40
+            "section_padding_bottom_xs": 30
           }
         }
       },
       "block_order": [
-        "b4ddd343-ac20-436c-833f-9c70711e9ea6",
-        "5ec84107-b5f9-4527-8b26-b4f17e6734ea",
-        "5d4d803b-de02-446c-9ff7-ac28338ad92c",
-        "7994fb03-7923-4cca-b5ba-9062b6a3efba",
-        "c6545515-b3bb-494b-a14b-c80e14b92916",
-        "5b946b4c-c293-4a21-bbac-b537f6f84796"
+        "template--20463255552309__f97449dc-f96f-40a9-b3fa-fe9edb9ef6de-faq-1",
+        "template--20463255552309__f97449dc-f96f-40a9-b3fa-fe9edb9ef6de-faq-2",
+        "template--20463255552309__f97449dc-f96f-40a9-b3fa-fe9edb9ef6de-faq-3",
+        "template--20463255552309__f97449dc-f96f-40a9-b3fa-fe9edb9ef6de-section_padding-1"
       ],
       "settings": {
         "section_title": "FAQs",
         "section_sub_title": "",
-        "heading_style_handle": "style_two",
+        "heading_style_handle": "style_one",
         "heading_left_position": false,
-        "contact_info_enable": true,
-        "title": "For furthermore help, contact with our support team.",
+        "contact_info_enable": false,
+        "title": "Still need help? Reach out to support:",
         "button_title": "Contact Us",
-        "button_url": "shopify:\/\/pages\/contact",
-        "phone_number": "+0123-456-789"
+        "button_url": "",
+        "phone_number": "8368935965"
       }
     },
     "alireviews-section-685c9601-8132-4a03-80ff-c72d308881a2": {
