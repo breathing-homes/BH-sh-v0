@@ -265,6 +265,13 @@ endif
                     text-transform: {{ block.settings.text_transform }};
                   }
                 </style>
+                <!-- delivery Zip code Validator -->
+                <div>
+                  <input type="text" id="zipcode-input" placeholder="Enter your ZIP code">
+                  <button id="submit-button">Check Delivery</button>
+                  <p id="validation-result"></p>
+                </div>
+
                 {%- when 'action_buttons' -%}
                   <!-- Pin code delivery check -->
                 <div id='my-main-div-ZIP-ens-manual'> </div> 
