@@ -227,6 +227,7 @@
         "16426000048430accc-3",
         "e136d65d-1b29-48bb-af32-4de0d245dc0b"
       ],
+      "disabled": true,
       "settings": {
         "service_style_handle": "style_2",
         "large_width_enable": false,
@@ -239,26 +240,6 @@
     },
     "single-product-tab": {
       "type": "single-product-tab",
-      "blocks": {
-        "19c5d1b1-f6ec-4a12-8971-5c54c1b0ae02": {
-          "type": "custom_tab",
-          "settings": {
-            "custom_tab_title": "Shipping Policy",
-            "custom_tab_handle": "shipping-policy"
-          }
-        },
-        "63b7460d-6341-4fb3-980f-de9b010bf039": {
-          "type": "custom_tab",
-          "settings": {
-            "custom_tab_title": "Size Chart",
-            "custom_tab_handle": "size-chart"
-          }
-        }
-      },
-      "block_order": [
-        "19c5d1b1-f6ec-4a12-8971-5c54c1b0ae02",
-        "63b7460d-6341-4fb3-980f-de9b010bf039"
-      ],
       "settings": {
         "product_tab_enable": true,
         "tab_active_handle": "review_tab",
@@ -380,6 +361,7 @@
       "blocks": {
         "a2ec1c82-fc4e-4f40-84f0-16ccbba8f98d": {
           "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "disabled": true,
           "settings": {
             "product": "",
             "name": "Review Box",
