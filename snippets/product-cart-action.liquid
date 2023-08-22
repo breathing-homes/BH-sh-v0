@@ -39,10 +39,7 @@
   {%- endif -%}
   {%- unless settings.product_cart_type == 'without_ajax_cart' -%}
   <script>
-    jQuery('#AddToCart').click(function(e) {
-      e.preventDefault();
-      Shopify.addItemFromFormStart('AddToCartForm', {{ product.id }});
-                                   }); 
+     
   </script>
   {%- endunless -%}
   {%- else -%}
