@@ -13,11 +13,15 @@ if settings.rtl_enable and settings.langauges_rtl != blank
   endfor
 endif
 %}
-
+<style>
+  #media-nav-small-tile-div {
+    width: 50px;
+  }
+</style>
 {% if product.media.size > 1 %}
 <div class="ltn__shop-details-small-img slick-arrow-2" id="ProductThumbs" {% if theme_rtl %}dir="rtl"{% endif %}>
   {% for media in product.media %}
-  <div class="single-small-img" style="width=50px !important">
+  <div class="single-small-img" id="media-nav-small-tile-div">
     {%- assign featured_media = current_variant.featured_media | default: product.featured_media -%} 
     <a data-thumbnail-id="{{ media.id }}" data-media-id="{{ media.id }}" href="javascript: void(0)" 
        data-image="{{ media | img_url: '1024x1024' }}" data-zoom-image="{{ media | img_url: '1024x1024' }}"
