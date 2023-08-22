@@ -704,9 +704,9 @@ WIDTHS
     width: 83.333%; }
 
   .disable-btn{
-      background-color: grey;
-      color: white;
-      cursor: not-allowed;
+      background-color: grey !important;
+      color: white !important;
+      cursor: not-allowed !important;
   }
   /* Eighths */
   .medium-down--one-eighth {
