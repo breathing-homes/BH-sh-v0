@@ -43,6 +43,7 @@
       e.preventDefault();
       Shopify.addItemFromFormStart('AddToCartForm', {{ product.id }});
                                    }); 
+    jQuery('#AddToCart').disabled = true;
   </script>
   {%- endunless -%}
   {%- else -%}
