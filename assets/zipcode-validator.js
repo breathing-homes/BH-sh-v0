@@ -11,7 +11,7 @@ function validateZipCode(zipCode) {
 // Function to handle the ZIP code validation
 function handleZipCodeValidation() {
   const inputElement = document.getElementById("zipcode-input"); // Replace with your input element's ID
-  const resultElement = document.getElementById("validation-result"); // Replace with the element where you want to display validation result
+  const resultElement = document.getElementById("zipcode-validation-result"); // Replace with the element where you want to display validation result
 
   const zipCode = inputElement.value.trim();
   
@@ -24,6 +24,6 @@ function handleZipCodeValidation() {
 
 // Attach event listener to trigger validation
 document.addEventListener("DOMContentLoaded", function () {
-  const submitButton = document.getElementById("submit-button"); // Replace with your submit button's ID
+  const submitButton = document.getElementById("zipcode-submit-button"); // Replace with your submit button's ID
   submitButton.addEventListener("click", handleZipCodeValidation);
 });
