@@ -174,10 +174,11 @@
       "block_order": [
         "template--20463256994101__8e41aa57-b879-479c-a982-d2da6a724363-section_padding-1"
       ],
+      "disabled": true,
       "settings": {
         "section_sub_title": "\/\/ Sub Title",
         "section_title": "Section Title",
-        "custom_html_content": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0806\/7632\/3637\/files\/BH-Assured-Explained-Banner.png\">"
+        "custom_html_content": ""
       }
     },
     "1642600004294514c0": {
