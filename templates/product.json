@@ -94,9 +94,9 @@
           "settings": {
             "social_share_enable": true,
             "share_title": "Share:",
-            "payment_option_enable": true,
+            "payment_option_enable": false,
             "payment_information": "<p>Secure Payment Gateway<\/p>",
-            "secure_badge_enable": true,
+            "secure_badge_enable": false,
             "payment_icon": "custom_icon",
             "amazon_payments": true,
             "american_express": true,
