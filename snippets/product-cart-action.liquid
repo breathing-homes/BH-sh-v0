@@ -8,14 +8,14 @@
       <div class="product-grid-countdown" data-countdown="{{ count_down_final }}"></div> 
     {%- endif -%}
   {%- if settings.product_cart_type == 'ajax_cart_drawer' -%}
-  <button type="submit" class="ajax-spin-cart theme-btn-1 btn btn-effect-1 ajax-spin-cart-drawer" id="AddToCart">
-    <i class="fas fa-shopping-cart"></i>
+  <button type="submit" class="ajax-spin-cart theme-btn-1 btn btn-effect-1 ajax-spin-cart-drawer" id="AddToCart"  disabled>
+    <!-- <i class="fas fa-shopping-cart"></i>
     <span>
       <span class="cart-title" id="AddToCartText">{{ settings.cart_button_title }}</span>
       <span class="cart-loading">{{ settings.wait_title }}</span>
       <span class="cart-added">{{ settings.added_title }}</span>
       <span class="cart-unavailable">{{ settings.unavailable_title }}</span>
-    </span>
+    </span> -->
   </button>
   {%- elsif settings.product_cart_type == 'ajax_spin_cart' -%}
   <button type="submit" class="ajax-spin-cart theme-btn-1 btn btn-effect-1" id="AddToCart" >
