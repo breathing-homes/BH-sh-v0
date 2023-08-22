@@ -39,8 +39,4 @@ document.addEventListener("DOMContentLoaded", function () {
   const zipcodeSubmitButton = document.getElementById("zipcode-submit-button"); 
   zipcodeSubmitButton.addEventListener("click", handleZipCodeValidation);
 
-  jQuery('#AddToCart').click(function(e) {
-      e.preventDefault();
-      Shopify.addItemFromFormStart('AddToCartForm', {{ product.id }});
-                                   });
 });
