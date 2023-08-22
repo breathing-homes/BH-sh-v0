@@ -21,10 +21,12 @@ function handleZipCodeValidation(e) {
   
   if (validateZipCode(zipCode)) {
     resultElement.innerHTML = "<span style='color: green;'>We deliver to your area! ^_^</span>";
-    addToCartElement.classList.remove("disable-btn")
+    addToCartElement.classList.remove("disable-btn");
+    addToCartElement.disabled = false;
   } else {
     resultElement.innerHTML = "<span style='color: red;'>Sorry, we don't deliver to your area.</span>";
-    addToCartElement.classList.add("disable-btn")
+    addToCartElement.classList.add("disable-btn");
+    addToCartElement.disabled = true;
   }
 }
 
