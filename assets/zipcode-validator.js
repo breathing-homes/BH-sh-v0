@@ -32,6 +32,10 @@ function handleZipCodeValidation(e) {
 
 // Attach event listener to trigger validation
 document.addEventListener("DOMContentLoaded", function () {
-  const submitButton = document.getElementById("zipcode-submit-button"); 
-  submitButton.addEventListener("click", handleZipCodeValidation);
+  const addToCartButton = document.getElementById("AddToCart");
+  addToCartButton.disabled = true;
+  addToCartButton.classList.add("disable-btn");
+  
+  const zipcodeSubmitButton = document.getElementById("zipcode-submit-button"); 
+  zipcodeSubmitButton.addEventListener("click", handleZipCodeValidation);
 });
