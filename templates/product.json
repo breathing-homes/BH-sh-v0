@@ -156,6 +156,32 @@
         "sticky_cart_enable": true
       }
     },
+    "bcdf2680-be6c-409b-a1f1-cbc33b1a2c2f": {
+      "type": "custom-liquid",
+      "blocks": {
+        "template--20463256994101__bcdf2680-be6c-409b-a1f1-cbc33b1a2c2f-section_padding-1": {
+          "type": "section_padding",
+          "settings": {
+            "section_padding_top": 0,
+            "section_padding_bottom": 100,
+            "section_padding_top_md": 0,
+            "section_padding_bottom_md": 80,
+            "section_padding_top_xs": 0,
+            "section_padding_bottom_xs": 60
+          }
+        }
+      },
+      "block_order": [
+        "template--20463256994101__bcdf2680-be6c-409b-a1f1-cbc33b1a2c2f-section_padding-1"
+      ],
+      "settings": {
+        "section_title": "",
+        "section_sub_title": "",
+        "heading_style_handle": "style_one",
+        "heading_left_position": false,
+        "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0806\/7632\/3637\/files\/BH-Assured-Explained-Banner.png\" width=\"100%\">"
+      }
+    },
     "1642600004294514c0": {
       "type": "service",
       "blocks": {
@@ -482,6 +508,7 @@
   },
   "order": [
     "main",
+    "bcdf2680-be6c-409b-a1f1-cbc33b1a2c2f",
     "1642600004294514c0",
     "059544c9-c249-46d9-bc74-2ceb99769869",
     "997014f9-c3bf-4236-9099-ecad9c93ef33",
