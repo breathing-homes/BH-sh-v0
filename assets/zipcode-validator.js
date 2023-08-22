@@ -18,9 +18,9 @@ function handleZipCodeValidation(e) {
   const zipCode = inputElement.value.trim();
   
   if (validateZipCode(zipCode)) {
-    resultElement.innerHTML = '<span style="color: green;">We deliver to your area! ^_^</span>';
+    resultElement.innerHTML = "<span style='color: green;'>We deliver to your area! ^_^</span>";
   } else {
-    resultElement.innerHTML = '<span style="color: red;">Sorry, we don't deliver to your area.</span>';
+    resultElement.innerHTML = "<span style='color: red;'>Sorry, we don't deliver to your area.</span>";
   }
 }
 
