@@ -91,6 +91,7 @@
         },
         "f35f858d-dc63-40fd-9c88-2be28aa5bc36": {
           "type": "share_and_payment",
+          "disabled": true,
           "settings": {
             "social_share_enable": true,
             "share_title": "Share:",
