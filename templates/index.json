@@ -971,6 +971,9 @@
         "c8c14a16-dcd3-44bd-ba43-31494583036a",
         "template--20463255552309__3228c88f-1ab3-4724-877a-0bea141b9936-section_padding-1"
       ],
+      "custom_css": [
+        "h6 {font-family: montserrat !important;}"
+      ],
       "settings": {
         "section_title": "FAQs",
         "section_sub_title": "",
