@@ -316,7 +316,7 @@ endif
                       {%- if product.available and block.settings.dynamic_checkout_button_enable -%}
                       <li>
                         {{ form | payment_button }}
-                        <div class="btn-wrapper lb-cta-btn-wrapper">
+                        <!-- <div class="btn-wrapper lb-cta-btn-wrapper">
                           <a href="{{ section.settings.button_url }}" class="btn"  style="width: 250px">
                             <span class="lb-cta-btn-text">
                               Checkout
@@ -324,7 +324,7 @@ endif
                             <img src="https://cdn.shopify.com/s/files/1/0806/7632/3637/files/payment-options.svg" alt="secured payments" width="60"  height="30" style="transform: translateY(-2px);" />
                             >
                           </a>
-                        </div>
+                        </div> -->
                       </li>
                       {%- endif -%}
                     </ul>
