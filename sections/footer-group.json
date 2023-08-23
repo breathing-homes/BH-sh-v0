@@ -13,7 +13,7 @@
             "contact_info_1": "",
             "contact_info_2": "<p><strong>Phone<\/strong>: 8368935965<\/p>",
             "contact_info_3": "<p><strong>Email<\/strong>: support@breathinghomes.in<\/p>",
-            "payment_option_enable": true,
+            "payment_option_enable": false,
             "payment_information": "<p>Guaranteed safe checkout<\/p>",
             "secure_badge_enable": false,
             "payment_icon": "custom_icon",
@@ -37,7 +37,7 @@
             "shopify_pay": false,
             "sofort": false,
             "visa": true,
-            "social_media_enable": true,
+            "social_media_enable": false,
             "widget_column": 12,
             "widget_column_md": 12,
             "widget_column_sm": 12
