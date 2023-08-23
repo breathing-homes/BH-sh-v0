@@ -35,7 +35,6 @@
       "blocks": {
         "2267715c-b668-4689-a5ce-b89264d29f92": {
           "type": "header_top",
-          "disabled": true,
           "settings": {
             "disable_header_top": false,
             "email": "example@example.com",
@@ -102,7 +101,7 @@
         "total_title": "Subtotal:",
         "view_cart_title": "View Cart",
         "checkout_title": "Checkout",
-        "cart_inforation": "<p>Free shipping on orders over <strong>$99<\/strong><\/p>",
+        "cart_inforation": "",
         "mobile_search_field_enable": true,
         "user_menu_title": "",
         "wishlit_title": "",
