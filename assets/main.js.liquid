@@ -141,7 +141,7 @@ $.fn.headerSection = function() {
           $target = $this.attr('href');
       $body.addClass('ltn__utilize-open');
       $($target).addClass('ltn__utilize-open');
-      $ltn__utilizeOverlay.fadeIn();
+      // $ltn__utilizeOverlay.fadeIn();
       if ($this.parent().hasClass('mobile-menu-toggle')) {
         $this.addClass('close');
       }
@@ -150,7 +150,7 @@ $.fn.headerSection = function() {
       e.preventDefault();
       $body.removeClass('ltn__utilize-open');
       $ltn__utilize.removeClass('ltn__utilize-open');
-      $ltn__utilizeOverlay.fadeOut();
+      // $ltn__utilizeOverlay.fadeOut();
       $mobileMenuToggle.find('a').removeClass('close');
     });
   })();
