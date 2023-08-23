@@ -13,11 +13,6 @@ if settings.rtl_enable and settings.langauges_rtl != blank
   endfor
 endif
 %}
-<style>
-  #ProductThumbs #media-nav-small-tile-div {
-    width: 60px !important;
-  }
-</style>
 {% if product.media.size > 1 %}
 <div class="ltn__shop-details-small-img slick-arrow-2" id="ProductThumbs" {% if theme_rtl %}dir="rtl"{% endif %}>
   {% for media in product.media %}
