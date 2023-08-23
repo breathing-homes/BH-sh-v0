@@ -83,7 +83,7 @@
         "sticky_header_enable": false,
         "logo": "shopify:\/\/shop_images\/Logo-BH-Webp.webp",
         "custom_logo_width_enable": true,
-        "logo_width": 150,
+        "logo_width": 80,
         "support_title": "",
         "support_number": "",
         "main_menu_handle": "main-menu",
