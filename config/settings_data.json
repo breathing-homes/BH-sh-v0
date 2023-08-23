@@ -6,7 +6,7 @@
     "enable_preloader": true,
     "scroll_top_enable": false,
     "disable_selection_text": false,
-    "disable_right_click": true,
+    "disable_right_click": false,
     "rtl_enable": false,
     "global_color_enable": true,
     "color_primary": "#071c1f",
