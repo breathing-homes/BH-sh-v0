@@ -148,10 +148,11 @@ $.fn.headerSection = function() {
     });
     $('.ltn__utilize-close, .ltn__utilize-overlay').on('click', function (e) {
       e.preventDefault();
+      $ltn__utilizeOverlay.fadeOut();
       $body.removeClass('ltn__utilize-open');
       $ltn__utilize.removeClass('ltn__utilize-open');
-      $ltn__utilizeOverlay.fadeOut();
       $mobileMenuToggle.find('a').removeClass('close');
+      $ltn__utilizeOverlay.fadeOut();
     });
   })();
 
