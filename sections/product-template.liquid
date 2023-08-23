@@ -149,7 +149,7 @@ endif
                   </span>
                   {%- endif -%}
                   {%- endif -%}
-                  <span id="ProductPrice">{{ product.selected_or_first_available_variant.price | money }}</span>
+                  <span id="ProductPrice"><br>{{ product.selected_or_first_available_variant.price | money }}</span>
                   {%- if product.compare_at_price_max > product.price -%}
                   <del><span id="ComparePrice" class="price-old">{{ product.selected_or_first_available_variant.compare_at_price | money }}</span></del>
                   {%- endif -%}
@@ -158,8 +158,7 @@ endif
                   {%- if product.compare_at_price_max > product.price -%}
                   <del><span id="ComparePrice" class="price-old">{{ product.selected_or_first_available_variant.compare_at_price | money }}</span></del>
                   {%- endif -%}
-                    <br>
-                  <span id="ProductPrice">{{ product.selected_or_first_available_variant.price | money }}</span>
+                  <span id="ProductPrice"><br>{{ product.selected_or_first_available_variant.price | money }}</span>
                   
                   {%- if on_sale -%}
                   {%- if settings.save_title != '' or settings.sale_percent_enable -%}
