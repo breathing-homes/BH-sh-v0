@@ -31,6 +31,11 @@
                  loading="lazy"
                  >
           </a>
+                      <li class="quantity-selector">
+                        <div class="cart-plus-minus quantity">
+                          <input type="text" min="1" step="1" value="1" name="quantity" class="cart-plus-minus-box">
+                        </div>
+                      </li>
           <span onclick="Shopify.removeItem({{ item.variant.id }})" class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
         </div>
         <div class="mini-cart-info">
