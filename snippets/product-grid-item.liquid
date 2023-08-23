@@ -20,7 +20,7 @@
     margin: 5px 0 0 0;
   }
 </style>
-<div class="ltn__product-item ltn__product-item-3 text-center product-wrapper {{ variant.id }}" style="margin-bottom: 0;">
+<div class="ltn__product-item ltn__product-item-3 text-center product-wrapper {{ variant.id }}" >
   <div class="product-img">
     {%- assign image = product.featured_image.src -%}
     <a href="{{ product.url | within: collection }}" class="image-position-wrapper" style="padding-bottom: {{ 1 | divided_by: image.aspect_ratio | times: 100 }}%;">
