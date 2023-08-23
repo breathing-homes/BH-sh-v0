@@ -933,8 +933,22 @@
         "template--20463255552309__3228c88f-1ab3-4724-877a-0bea141b9936-faq-3": {
           "type": "faq",
           "settings": {
-            "accordion_title": "Can I change my order information?",
-            "accordion_content": "<p>Mail us at <strong>support@breathinghomes.in<\/strong> or Call us at <strong>+91-8368935965<\/strong> to change your order information. Please note that after your order is shipped you cannot change any details on your order.<\/p>"
+            "accordion_title": "What is the procedure for initiating a return for a plant?",
+            "accordion_content": "<p>To initiate a plant return, WhatsApp your request and a plant photo within 24 hours to +91-8368935965. We'll then schedule a pickup for your convenience.<\/p>"
+          }
+        },
+        "7bee344f-0780-419b-b7f6-b9d9e80a8195": {
+          "type": "faq",
+          "settings": {
+            "accordion_title": "How to get plant expert support?",
+            "accordion_content": "<p>Seeking plant expertise is simple. WhatsApp 'I want help with my plants' to <strong>+91-8368935965<\/strong>. Our experts are ready to assist, addressing your queries and ensuring a smooth plant journey with unwavering support.<\/p>"
+          }
+        },
+        "c8c14a16-dcd3-44bd-ba43-31494583036a": {
+          "type": "faq",
+          "settings": {
+            "accordion_title": "What payment methods do you accept for plant purchases?",
+            "accordion_content": "<p>For seamless and secure transactions, we accept various UPI and card payment methods. Rest assured, all payments are safeguarded by Razorpay, ensuring your peace of mind.<\/p>"
           }
         },
         "template--20463255552309__3228c88f-1ab3-4724-877a-0bea141b9936-section_padding-1": {
@@ -953,6 +967,8 @@
         "template--20463255552309__3228c88f-1ab3-4724-877a-0bea141b9936-faq-1",
         "template--20463255552309__3228c88f-1ab3-4724-877a-0bea141b9936-faq-2",
         "template--20463255552309__3228c88f-1ab3-4724-877a-0bea141b9936-faq-3",
+        "7bee344f-0780-419b-b7f6-b9d9e80a8195",
+        "c8c14a16-dcd3-44bd-ba43-31494583036a",
         "template--20463255552309__3228c88f-1ab3-4724-877a-0bea141b9936-section_padding-1"
       ],
       "settings": {
