@@ -44,7 +44,7 @@
     "cart_button_title": "Add to cart",
     "affiliate_cart_button_title": "<i class=\"fab fa-amazon\"><\/i> Buy from amazon",
     "soldout_button_title": "Soldout",
-    "product_cart_type": "ajax_cart_drawer",
+    "product_cart_type": "ajax_popup_cart",
     "wait_title": "Wait..",
     "added_title": "Added",
     "unavailable_title": "Uavailable",
