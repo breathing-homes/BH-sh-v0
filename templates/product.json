@@ -419,7 +419,6 @@
     },
     "related-product": {
       "type": "related-product",
-      "disabled": true,
       "settings": {
         "section_title": "Related Products",
         "section_sub_title": "You may also like",
