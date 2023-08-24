@@ -111,7 +111,7 @@ Shopify.cartPopapForm = function(variant_id) {
   	var title = jQuery('#popup_cart_title').text();
   	jQuery('.popupimage').attr("src",''+image+'');
 	jQuery('.productmsg').text(''+title+'');
-	jQuery('#modalAddToCart').modal("toggle");
+	// jQuery('#modalAddToCart').modal("toggle");
 }
 
 Shopify.cartUpdateInfo = function(cart, cart_cell_id) {
