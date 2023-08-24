@@ -45,7 +45,7 @@ endif
               {%- endcapture -%}
         <div class="row ltn__related-product-slider-one-active slick-arrow-1" {% if theme_rtl %}dir="rtl"{% endif %} {{ data_slick_activation }}>
           {%- for product in recommendations.products -%}
-          <div class="col-lg-12">
+          <div class="col-lg-6">
             {%- render 'product-grid-item', product: product -%}
           </div>
           {%- endfor -%}
