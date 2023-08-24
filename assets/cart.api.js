@@ -112,10 +112,10 @@ Shopify.cartPopapForm = function(variant_id) {
   	jQuery('.popupimage').attr("src",''+image+'');
 	jQuery('.productmsg').text(''+title+'');
 	// jQuery('#modalAddToCart').modal("toggle");
-  $(document).ready(function() {
-  // Your code here
-  jQuery('#modalAddToCart').modal("toggle");
-});
+    $(document).ready(function() {
+      // Your code here
+      jQuery('#modalAddToCart').modal("toggle");
+    });
 }
 
 Shopify.cartUpdateInfo = function(cart, cart_cell_id) {
