@@ -58,15 +58,15 @@
           "type": "header_color_3",
           "settings": {
             "header_middle_color_enable": true,
-            "header_bg_color": "#ffffff",
-            "header_color": "#071c1f",
-            "support_icon_color": "#071c1f",
+            "header_bg_color": "#f8ede3",
+            "header_color": "#242c2f",
+            "support_icon_color": "#242c2f",
             "mini_cart_price_color": "#e53e29",
-            "header_sticky_bg_color": "#ffffff",
-            "header_sticky_color": "#071c1f",
+            "header_sticky_bg_color": "#f8ede3",
+            "header_sticky_color": "#242c2f",
             "menu_color_enable": true,
-            "menu_bg_color": "#ece5dd",
-            "menu_color": "#071c1f"
+            "menu_bg_color": "#f8ede3",
+            "menu_color": "#242c2f"
           }
         }
       },
