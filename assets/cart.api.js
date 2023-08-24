@@ -1,3 +1,6 @@
+$(document).ready(function() {
+
+  
 /* override functions api.jquery.js */
 Shopify.onItemAdded = function(line_item) {
   Shopify.getCart();
@@ -176,3 +179,7 @@ function changeHtmlValue (cell, value) {
   var $cartLinkText = jQuery(cell);
   $cartLinkText.html(value);
 };
+
+
+
+});
