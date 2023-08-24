@@ -434,7 +434,6 @@
     },
     "recently-viewed-product": {
       "type": "recently-viewed-product",
-      "disabled": true,
       "settings": {
         "section_title": "Recent View",
         "section_sub_title": "Recently viewed products",
