@@ -288,6 +288,42 @@
         "custom_liquid": "<div style=\"\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0806\/7632\/3637\/files\/Product-showcase-webp.webp?v=1692816657\" width=\"100%\" >\n<\/div>"
       }
     },
+    "94a93454-c421-422a-a501-71c5ca105abf": {
+      "type": "featured-collection",
+      "blocks": {
+        "666c0e7a-1076-494d-9770-7fe591cd2ae1": {
+          "type": "section_padding",
+          "settings": {
+            "section_padding_top": 0,
+            "section_padding_bottom": 70,
+            "section_padding_top_md": 0,
+            "section_padding_bottom_md": 50,
+            "section_padding_top_xs": 0,
+            "section_padding_bottom_xs": 35
+          }
+        }
+      },
+      "block_order": [
+        "666c0e7a-1076-494d-9770-7fe591cd2ae1"
+      ],
+      "settings": {
+        "large_width_enable": true,
+        "section_title": "Look at these plants...",
+        "section_sub_title": "",
+        "heading_style_handle": "style_two",
+        "heading_left_position": false,
+        "featured_product_handle": "all-products-collection",
+        "view_all_button_enable": true,
+        "view_all_button_title": "View All",
+        "featured_product_limit_handle": 8,
+        "product_row": 1,
+        "product_column": 4,
+        "product_column_md": 3,
+        "product_column_sm": 2,
+        "autoplay_true": false,
+        "autoplay_speed": 2000
+      }
+    },
     "ae374eb4-cd64-4356-8438-16e2418022af": {
       "type": "custom-html",
       "blocks": {
@@ -1259,6 +1295,7 @@
     "901c21f5-f966-4ab2-a85a-e1a3945e86d1",
     "bfc60b0c-98bd-4871-b885-a6cbf39f9f10",
     "278c6366-9711-4c7d-a8ea-c1e4bfa41e4c",
+    "94a93454-c421-422a-a501-71c5ca105abf",
     "ae374eb4-cd64-4356-8438-16e2418022af",
     "0088a473-6d40-44ff-8fc3-c7a337c0f3ca",
     "b4b99a28-68e5-43bd-abe4-af5ffe7dc95b",
