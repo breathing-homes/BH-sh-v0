@@ -34,9 +34,17 @@
             </ul>
           </div>
           {%- endif -%}
-          {%- if section.settings.mobile_search_field_enable -%}
-          {%- render 'search-bar' -%}
-          {%- endif -%}
+          <div class="header-search-wrap">
+            <div class="header-search-1">
+              <div class="search-icon">
+                <i class="icon-search for-search-show"></i>
+                <i class="icon-cancel  for-search-close"></i>
+              </div>
+            </div>
+            <div class="header-search-1-form">
+              {%- render 'search-bar' -%}
+            </div>
+          </div>
           <!-- mini-cart -->
           <div class="mini-cart-icon">
             <a href="#ltn__utilize-cart-menu" class="ltn__utilize-toggle">
