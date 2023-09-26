@@ -35,9 +35,7 @@
           </div>
           {%- endif -%}
           {%- if section.settings.mobile_search_field_enable -%}
-          <div class="header-search-1-form">
-            {%- render 'search-bar' -%}
-          </div>
+          {%- render 'search-bar' -%}
           {%- endif -%}
           <!-- mini-cart -->
           <div class="mini-cart-icon">
@@ -91,11 +89,22 @@
       </div>
       <button class="ltn__utilize-close">×</button>
     </div>
-    {%- if section.settings.mobile_search_field_enable -%}
-    <div class="ltn__utilize-menu-search-form">
-      {%- render 'search-bar' -%}
+    <!-- {%- if section.settings.mobile_search_field_enable -%} -->
+    <!-- {%- if section.settings.header_search_enable -%} -->
+    <!-- header-search-1 -->
+    <div class="header-search-wrap">
+      <div class="header-search-1">
+        <div class="search-icon">
+          <i class="icon-search for-search-show"></i>
+          <i class="icon-cancel  for-search-close"></i>
+        </div>
+      </div>
+      <div class="header-search-1-form">
+        {%- render 'search-bar' -%}
+      </div>
     </div>
-    {%- endif -%}
+<!-- {%- endif -%}
+    {%- endif -%} -->
     <div class="ltn__utilize-menu">
       <ul>
         {%- assign main_menu = section.settings.main_menu_handle -%}
