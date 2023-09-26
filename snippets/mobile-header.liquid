@@ -34,6 +34,9 @@
             </ul>
           </div>
           {%- endif -%}
+          {%- if section.settings.mobile_search_field_enable -%}
+          {%- render 'search-bar' -%}
+          {%- endif -%}
           <!-- mini-cart -->
           <div class="mini-cart-icon">
             <a href="#ltn__utilize-cart-menu" class="ltn__utilize-toggle">
